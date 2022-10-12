@@ -1,0 +1,80 @@
+0.4.11 -> 0.4.12
+- add a minimalist parser for Pocket Word .psw and .pwi files
+
+0.4.10 -> 0.4.11
+- add a parser for XYWrite v2,v4
+- wks,wk1: try to improve the cell's reference retrieving
+
+0.4.9 -> 0.4.10
+- QuattroPro: add parser of .qwp files
+- all: support complex encoding...
+
+0.4.8 -> 0.4.9
+- QuattroPro: add parser to .wb3 files,
+- Multiplan: add parser to DOS v1-v3 files.
+
+0.4.7 -> 0.4.8
+- charts: try to retrieve charts in .wk*, .wq* files,
+- QuattroPro: add parser to .wb[12] files,
+- switch to c++11,
+- fuzzing: correct many problems,
+
+0.4.6 -> 0.4.7
+- correct many problem detected with fuzzing,
+- QuattroPro: correct reading of wq1 formula with references.
+
+0.4.5 -> 0.4.6
+- Lotus 123: add support to read SmartSuite 98's files,
+- Lotus: allow to convert file with a password.
+
+0.4.4 -> 0.4.5
+- Lotus 123: add support to read SmartSuite 97's files,
+- implement LICS conversion correctly.
+
+0.4.3 -> 0.4.4
+- Lotus .wk3, .wk4: retrieve more formattings,
+- Lotus .wk3: add support to read .fm3 file,
+- MsWorks v4: retrieve page's embedded objects.
+
+0.4.2 -> 0.4.3
+- add support for Microsoft Word for DOS files
+
+0.4.1 -> 0.4.2
+- add support for Microsoft Write files
+
+0.4.0 -> 0.4.1
+- correct some afl errors + improve the sheet's generation...
+
+0.3.x -> 0.4.0
+- add support for unknown encoding files (ie. DOS file)
+- add potential support for converting Lotus, ... documents,
+- accept to convert all Lotus Wk1 files and Symphony Wk1 files,
+- add support for Lotus Wk3 and Wk4 documents,
+- add support for Quattro Pro Wq1 and Wq2 documents,
+- only in debug mode, add pre-support for Lotus Wk5..., must allow to
+  retrieve the main sheets content's with no formatting,
+- add potential support for asking the document's password ( but do nothing )
+- correct some compiler warnings when compiling in debug mode.
+
+0.3.0 -> 0.3.1
+- Fix parsing of floating-point numbers in specific cases.
+- Fix several minor issues reported by Coverity and Clang.
+- Check arguments of public functions. Passing NULL no longer causes
+  a crash.
+- Use symbol visibility on Linux. The library only exports the public
+  functions now.
+- Import @TERM and @CTERM functions (fdo#86241).
+- Handle LICS character encoding in spreadsheets (fdo#87222).
+- Fix a crash when reading a broken file, found with the help of
+  american-fuzzy-lop.
+
+0.2.x -> 0.3.0
+- switch to librevenge
+- add support for Works Spreadsheet
+- add support for Works Database
+- miscellaneous fixes and cleanups
+
+beginning -> 0.1.0
+- libwps based on libwpd.
+- Read Works 2 through 8 documents (except maybe Mac) with basic formatting.
+

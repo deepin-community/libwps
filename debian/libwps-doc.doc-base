@@ -1,0 +1,8 @@
+Document: libwps-doc
+Title: libwps documentation
+Abstract: This document contains the libwps API documentation
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/libwps/html/index.html
+Files: /usr/share/doc/libwps/html/*

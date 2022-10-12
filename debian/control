@@ -1,0 +1,81 @@
+Source: libwps
+Priority: optional
+Section: libs
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders:
+ Rene Engelhard <rene@debian.org>,
+Build-Depends:
+ debhelper-compat (= 13),
+ libboost-dev,
+ libcppunit-dev,
+ librevenge-dev,
+ pkg-config,
+Build-Depends-Indep:
+ doxygen,
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Vcs-Git: https://salsa.debian.org/libreoffice-team/document-liberation/libwps.git
+Vcs-Browser: https://salsa.debian.org/libreoffice-team/document-liberation/libwps
+Homepage: https://sourceforge.net/projects/libwps/
+
+Package: libwps-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends:
+ librevenge-dev,
+ libwps-0.4-4 (= ${binary:Version}),
+ ${misc:Depends},
+Description: Works text file format import filter library (development)
+ libwps is a library (for use by word processors, for example) for importing the
+ Microsoft Works word processor file format. As of November 2006, the project
+ is new, but it imports Works format versions 2, 3, 4, and 8 with some
+ formatting. Support for Works formats version 2000 (aka 5) is coming soon.
+ .
+ This package contains the files needed for developing applications using
+ libwps.
+
+Package: libwps-0.4-4
+Architecture: any
+Multi-Arch: same
+Pre-Depends:
+ ${misc:Pre-Depends},
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Works text file format import filter library (shared library)
+ libwps is a library (for use by word processors, for example) for importing the
+ Microsoft Works word processor file format. As of November 2006, the project
+ is new, but it imports Works format versions 2, 3, 4, and 8 with some
+ formatting. Support for Works formats version 2000 (aka 5) is coming soon.
+ .
+ This package contains the shared library.
+
+Package: libwps-tools
+Section: utils
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Tools from libwps for converting Works text documents to HTML/RAW/Text
+ libwps is a library (for use by word processors, for example) for importing the
+ Microsoft Works word processor file format. As of November 2006, the project
+ is new, but it imports Works format versions 2, 3, 4, and 8 with some
+ formatting. Support for Works formats version 2000 (aka 5) is coming soon.
+ .
+ This package contains some little programs using libwps to convert
+ Works text document files into HTML/Raw files and Text.
+
+Package: libwps-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Description: Works text file format import filter library (documentation)
+ libwps is a library (for use by word processors, for example) for importing the
+ Microsoft Works word processor file format. As of November 2006, the project
+ is new, but it imports Works format versions 2, 3, 4, and 8 with some
+ formatting. Support for Works formats version 2000 (aka 5) is coming soon.
+ .
+ This package contains the API documentation.

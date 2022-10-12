@@ -1,0 +1,4344 @@
+2020-09-03  ALONSO Laurent  <laurent.alonso@inria.fr>  [a10360f6d28b77993be39709d4e2d17963765b33]
+
+tcppcheck: try to remove some warnings, ...
+
+
+2020-09-03  ALONSO Laurent  <laurent.alonso@inria.fr>  [123b0ede5d86d1eada7ed499b2d0fae70fff994f]
+
+tconfigure.ac: add a --enable-asan option...
+
+
+2020-09-03  ALONSO Laurent  <laurent.alonso@inria.fr>  [83c3a602869363a52cd10056e8a6267ca95fa121]
+
+tPocketWord: add possibility to reset the default encoding...
+
+
+2020-04-16  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [5ba515142bd23dcc764f4024b879aee440f6f453]
+
+tPocket Word: activate this parser in release mode...
+
+
+2020-04-16  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [42a423941ac3d6aa6e7bcc6bf48674ad78772eab]
+
+tPocket Word: begin to retrieve text (in debug mode)...
+
+
+2020-04-14  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [cba8a977319e3395f68dcd38cdc2edf8dc57aae5]
+
+tPocket Word: begin to add a parser, to be continued...
+
+
+2020-04-02  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [4495179adb441dba2efe74267721115e2316d60a]
+
+tcoverity: correct many warnings + prepare code for a release
+
+
+2020-04-01  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [8e1f63db16393e03e284accfc57d06c3d4f76a70]
+
+tcppcheck: remove some warnings...
+
+
+2020-04-01  alonso  <laurent.alonso@inria.fr>  [18c69387d21bf7e638f0ca1d902f2f4d610832b3]
+
+tclang: correct a warning...
+
+
+2020-04-01  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [20f3011a0528cb95d9d63c8cef9a7fd329d54282]
+
+tXYWrite.cpp: silent a g++ warning
+
+
+2020-03-31  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [6c5bf150a25b096a3a31cf4c02bac9bca2db68e2]
+
+tg++: correct some warnings...
+
+
+2020-03-31  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [1081e22a4e63c4887ea73aff760e084a402da8ed]
+
+tXYWrite.cpp: astyle + minor modifications...
+
+
+2020-03-30  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [4411ec0ff51019c0755669383970f152da4ec410]
+
+tXYWrite: try to retrieve more styles...
+
+
+2020-03-29  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [22d68ec935f7facef342d1b4e5b51c275284a603]
+
+tXYWrite: try to retrieve some notes, ...
+
+
+2020-03-29  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [1e01268c2d1b8f36bc4df1da5285fdf06bce1962]
+
+tXYWrite: try to retrieve some frames...
+
+
+2020-03-28  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [cf5edd3248ca0a39a09e22170e3f14c8068f3d11]
+
+tXYWrite: try to retrieve some basic counters, 	+ add a warning if the file contains label/cross ref 	+ simplify the code...
+
+
+2020-03-28  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [8996db95dd4b7008a61b6374bede7633f9660965]
+
+tXYWrite: try to retrieve some numbering lists...
+
+
+2020-03-27  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [5763044d8cdb9c3e84e898e718253f704c2c708e]
+
+tTry to retrieve some styles...
+
+
+2020-03-25  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [1d5232cc84f1a74be29a6d8021ec1bbf033cfb50]
+
+tXYWrite: try to retrieve some tables...
+
+
+2020-03-24  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [731c85368067009ed42598e02b65542e7071e9e6]
+
+tXYWrite: try to retrieve the headers/footers...
+
+
+2020-03-23  Laurent Alonso(fr)  <alonso.laurent@gmail.fr>  [bef72445c6813d571eef4c6036606c292267b967]
+
+tXYWrite[v1-4]: add code to retrieve basic commands...
+
+
+2019-12-13  Miklos Vajna  <vmiklos@collabora.com>  [51559db46f962090e15ad507b83cf117f327ce16]
+
+tAvoid accessing static members through instance
+
+
+2019-12-12  Miklos Vajna  <vmiklos@collabora.com>  [ae22238a9466fbcb6fed4dd96bacdaabb95ac606]
+
+tThese can be static
+
+
+2019-12-11  Miklos Vajna  <vmiklos@collabora.com>  [eb2817c92d652acebb57bf975247eaeb9126e8f0]
+
+tThese can be const
+
+
+2019-12-11  Miklos Vajna  <vmiklos@collabora.com>  [362fd31f358ca239d48a1f9a60a2a5e503268fbc]
+
+tMultiplan: mark overriding function as such
+
+
+2019-12-11  Miklos Vajna  <vmiklos@collabora.com>  [10c3aa881ed6d65d802f679a360df0a352ee482c]
+
+tUse auto when initializing with a cast to avoid duplication
+
+
+2019-12-11  Miklos Vajna  <vmiklos@collabora.com>  [90d1fe1a095d1bbb7836d03eec955df3b62ed47b]
+
+tUse range-based for loops
+
+
+2019-10-31  alonso  <laurent.alonso@inria.fr>  [c1ba33b7505cff91f57d5aa7e8c6ff8706b63a21]
+
+tWKS4Spreadsheet.cpp: simplify the code...
+
+
+2019-10-31  alonso  <laurent.alonso@inria.fr>  [188933f0d66c77a19ccb0b5f5151a4c9f7203fbc]
+
+twks,wk1: do not change the maximum number of columns...
+
+
+2019-10-31  alonso  <laurent.alonso@inria.fr>  [39be60f9045a758178d90526ae66b0e3d24f348e]
+
+twks,wk1,...: try to read correctly the row cell's references...
+
+
+2019-10-31  alonso  <laurent.alonso@inria.fr>  [d74790b4bd55a3a11b56dbbd670c3baa1331e6dd]
+
+tlotus[wb1]: try to correct the retrieving of row references in formula...
+
+
+2019-10-21  Stephan Bergmann  <sbergman@redhat.com>  [9738ed97b10d5671b5e70f2c8149fe8f7949bce4]
+
+tMake comparison operator member functions const  which avoids overload resolution ambiguities in C++20, when a synthesized  candidate of operator == for a reversed-argument rewrite conflicts with the  actual operator ==, due to the asymmetric const-ness of the implicit object  parameter and the RHS parameter.
+
+
+2019-01-23  Miklos Vajna  <vmiklos@collabora.com>  [881c25d06df91e451de40cee4c1de8d407290217]
+
+tFix too small loop variables
+
+tThese loop variables had narrower type than the iteration's upper bound.
+
+2018-08-06  osnola  <alonso@loria.fr>  [cc128f1ff49eae6fdd1cdc4b1fc063ed69217342]
+
+tconfigure.ac: update minor version to prepare release...
+
+
+2018-08-06  osnola  <alonso@loria.fr>  [792e04dccd01f5d443a416f8613e0fde5a11ede6]
+
+tcppcheck: correct some warnings...
+
+
+2018-08-06  osnola  <alonso@loria.fr>  [bfd3fc9ce074f70eb34b4197ab62414166371b39]
+
+tg++: correct some warnings...
+
+
+2018-08-06  osnola  <alonso@loria.fr>  [08808ac999688e315e2b1262f9f58765a6b0276f]
+
+tupdate README files...
+
+
+2018-08-06  osnola  <alonso@loria.fr>  [5d363893a40deb9e4ff1d89f8a9def89e0f8ccc0]
+
+tcoverity: remove dead code...
+
+
+2018-08-02  osnola  <alonso@loria.fr>  [da81e3064c85364b111edc12f146a6cdb6823220]
+
+t.qwp: ask for the encoding...
+
+
+2018-08-02  osnola  <alonso@loria.fr>  [3ebf13c07377c29e9f45552e960e22041ac362a0]
+
+tmultiplan: allow to retrieve complex encodings...
+
+
+2018-08-02  osnola  <alonso@loria.fr>  [a17271ba1de77f896bd510b4c1930b84882451db]
+
+tOLE: : allow to retrieve complex encodings...
+
+
+2018-08-01  osnola  <alonso@loria.fr>  [9552246bbbfa2c418af64bb24fd612077ba32325]
+
+t.wps[1-4]: allow to retrieve complex encodings...
+
+
+2018-08-01  osnola  <alonso@loria.fr>  [30540a0ca694b648a9fa961aece7cdd3fa9f108e]
+
+tfield: implement date/time field correctly...
+
+
+2018-08-01  osnola  <alonso@loria.fr>  [157a0335922ddd1ae1ca5038bccdc7697611bf9f]
+
+t.qwp: allow to retrieve complex encodings...
+
+
+2018-08-01  osnola  <alonso@loria.fr>  [44068d2d649a175f3ddb9fcdba2472580348af8d]
+
+t.wb*: allow to retrieve complex encodings...
+
+
+2018-08-01  osnola  <alonso@loria.fr>  [c23a111ceba096934c1054f719388b1b994042c6]
+
+t.wq*: allow to retrieve complex encodings...
+
+
+2018-08-01  osnola  <alonso@loria.fr>  [663bb26645b6219e246648ff7d225f5f88b608f4]
+
+t.wk*: allow to retrieve complex encodings...
+
+
+2018-07-31  osnola  <alonso@loria.fr>  [42a5c4e27e3b2c7e4de1bcf045ede9a8737f559d]
+
+tLotus: allow to retrieve complex encodings...
+
+
+2018-07-31  osnola  <alonso@loria.fr>  [0187e91147a64732e4525b0f11e92a48389b5220]
+
+tencoding[LICS]: simplify the code...
+
+
+2018-07-31  osnola  <alonso@loria.fr>  [065c7ef5d300146f2136ebab599d6931f722bc10]
+
+tclang: finish to remove many Weverything warnings...
+
+
+2018-07-31  osnola  <alonso@loria.fr>  [72cf41afae265b7cab006bca2031154d4b924d95]
+
+tclang: continue to suppress some -Weverything warnings...
+
+
+2018-07-30  osnola  <alonso@loria.fr>  [32d3f263e818c1de22e983ff4b8193088bcd714c]
+
+tclang: try to remove some -Weverything warning, to be continued...
+
+
+2018-07-30  osnola  <alonso@loria.fr>  [58e88f1253e3473130d07a76b211958948ba9af3]
+
+tqpw: force the cell style's length to be 36 for X2..X9 files...
+
+
+2018-05-30  osnola  <alonso@loria.fr>  [7f5f5b80ae05dd7562a094f038efeae4f7d0f793]
+
+tQuattroPro[.qpw]: try to retrieve some OLE's pictures, ...
+
+
+2018-05-29  osnola  <alonso@loria.fr>  [9f39d99c356f46be9f7db06159bda9c4b6cbbb54]
+
+tQuattroPro[.qwp]: try to retrieve some textboxes...
+
+
+2018-05-29  osnola  <alonso@loria.fr>  [38645618b8f569ba2c6eaee5ef980e372ccf7d0d]
+
+tQuattroPro[.qpw]: try to retrieve more complex geometrical shapes...
+
+
+2018-05-28  osnola  <alonso@loria.fr>  [2883f267eef7585a4e0a9507306913f0be2ef219]
+
+tQuattroPro[.qpw]: begin to retrieve some geometrical shapes...
+
+
+2018-05-24  osnola  <alonso@loria.fr>  [7d2cd0774529cdadd938668aa050daaa96441ef8]
+
+tQuattroPro[.qpw]: add support for big blocks...
+
+
+2018-05-24  osnola  <alonso@loria.fr>  [681331420e05f77bd5e9e685a0c7de4a681d4394]
+
+tQuattroPro[.qpw]: change code to read big cell's style zone with size. libwps_internal.cpp: allow to have more than 26*26 column...
+
+
+2018-05-23  osnola  <alonso@loria.fr>  [8061f26b216ccb2c78864ef4399f9a7234df901b]
+
+tQuattroPro[.qpw]: active the filter in non debug mode   + add code to read files protected with password...
+
+
+2018-05-23  osnola  <alonso@loria.fr>  [ebd71252225dd217d284f21240d4509b1b4403f0]
+
+tQuattroPro[.qpw]: begin to retrieve some formula  + create a class QuattroFormulaManager to read the formula   in .wb1-.wb3 and .qpw files...
+
+
+2018-05-22  osnola  <alonso@loria.fr>  [66f5b0f166cc1f600c24bf6fd8ad3c7d677af85c]
+
+tQuattroPro[.qpw]: try to retrieve the cell's background color...
+
+
+2018-05-22  osnola  <alonso@loria.fr>  [b7e4a9c18197d6eff99a0b44cf64c258436ad0b7]
+
+tQuattroPro[.qpw]: update the color table + retrieve some borders...
+
+
+2018-05-21  osnola  <alonso@loria.fr>  [cb2c2f82e544c88ae6a2b1c14982943e5108ba05]
+
+tQuattroPro[.qpw]: try to retrieve the numbering format... QuattroPro[.wb1-3]: ask for the encoding...
+
+
+2018-05-20  osnola  <alonso@loria.fr>  [180a589afba16e0d48775212a840de4094d1cb6a]
+
+tQuattroPro[.qpw]: try to retrieve the complex zone of text...
+
+
+2018-05-20  osnola  <alonso@loria.fr>  [42bd2bcb317169774ab5c4ca62b034adfacbdd85]
+
+tQuattroPro[.qpw]: begin to retrieve some cell's content, to be 	continued...
+
+
+2018-05-17  osnola  <alonso@loria.fr>  [4f10866b5dd2f1a370bba6e1ed217c5143bce31e]
+
+tadd files to create a parser for .qpw files: - begin to parse the main spreadsheet's zones (except the formula)   when compiled in debug mode, to be continued...
+
+
+2018-05-05  David Tardon  <dtardon@redhat.com>  [b8897585d4ffa503d88c98b31fbb5b7ccc2a01cd]
+
+tdisable werror by default
+
+
+2018-04-26  David Tardon  <dtardon@redhat.com>  [f06d50e9a6fea032d580a5c144a6d7be3eb8bd1e]
+
+tfix copypasta
+
+
+2018-04-26  David Tardon  <dtardon@redhat.com>  [9181ad021cf1c200bc80edb9f5a6df5b780be046]
+
+tavoid name clash with MultiplanParser from libmwaw
+
+
+2018-04-24  osnola  <alonso@loria.fr>  [23fa7c1cfeb88d3f73b73a8e972229fb020a9532]
+
+tupdate CHANGES's files...
+
+
+2018-04-24  osnola  <alonso@loria.fr>  [a25b0627c6d67e2d12a65ff7c906eaf489c68ec5]
+
+tconfigure.ac: update minor version to prepare release...
+
+
+2018-04-24  osnola  <alonso@loria.fr>  [e4846a9d8afbae080338e698041517cd65d5e42b]
+
+tcppcheck: correct some warnings...
+
+
+2018-04-24  osnola  <alonso@loria.fr>  [b074363422889047d43dea0e71f8c255e62bbcce]
+
+tcoverity: remove dead code...
+
+
+2018-03-15  David Tardon  <dtardon@redhat.com>  [1b8f52baf6da9c696cb6c540a167a408947835e5]
+
+tofz#2941 do not waste time on invalid columns
+
+
+2018-03-06  David Tardon  <dtardon@redhat.com>  [e3daa6614a9ef30e7bb71dfc63dea91bab3d880e]
+
+tofz#6753 fix OOB access on conv. from Mac Symbol
+
+tThe conv. table was missing the 0x90-0x9f range. Since the whole
+t0x80-0x9f range is a gap, let's make this clearer by splitting the table
+tto two parts.
+
+2018-02-04  osnola  <alonso@loria.fr>  [6dbae66dfe640c6b56af0df5346fc70c246b7f76]
+
+tQuattroSpreadsheet.cpp: correct some functions' names...
+
+
+2018-02-01  David Tardon  <dtardon@redhat.com>  [0ce08f273d873fdf21710447268cb6291811a04e]
+
+tWaE: unnecessary parentheses in declaration
+
+
+2018-01-30  osnola  <alonso@loria.fr>  [dd6413ebd385ee7d56602f5a5468e728be4757ac]
+
+tWKSChart*: pass axis' labels as categories' child + remove   m_cellRanges(not working)...
+
+
+2018-01-29  osnola  <alonso@loria.fr>  [46a050b0e36684c5ddf27c2f7e8385963a39ad9b]
+
+tQuatro*.cpp: allow collection of references to be deleted...
+
+
+2018-01-28  osnola  <alonso@loria.fr>  [6c4b75e1a5c3a6d17bf28b72ed733f257b6245b2]
+
+tQuattro*{h,cpp}[.wb*]: continue to parse more fields + try to retrieve more cell's references...
+
+
+2018-01-26  osnola  <alonso@loria.fr>  [a10c2954ff82830d2fdd7fb5141f6d1f5684f42e]
+
+tQuattro*{h,cpp}[.wb*]: try to parse more fields, to be continued...
+
+
+2018-01-25  David Tardon  <dtardon@redhat.com>  [dfcbaf06decbb29d7831e58350040a4130fc30bf]
+
+tofz#5587 avoid recursion leading to stack overflow
+
+
+2018-01-24  osnola  <alonso@loria.fr>  [0c5d5141579e817a87729e8c670199ed62b449c3]
+
+tQuatro*cpp[.wb*]: try to "retrieve" references to external file+name...
+
+
+2018-01-24  osnola  <alonso@loria.fr>  [a514291722c31d298cd0f15a8fcab29f2e115589]
+
+tQuattro*.{h,cpp}: try to retrieve more zones' name in debug mode...
+
+
+2018-01-22  osnola  <alonso@loria.fr>  [71e07043d17cea96eec2bcd335649f009b739582]
+
+tQuattro*{h,cpp}[.wb2,.wb3]: begin to retrieve the text boxes and   some geometrical shapes...
+
+
+2018-01-20  David Tardon  <dtardon@redhat.com>  [72e4c890921302492da2b4fd32bd24e8caf1eb21]
+
+tofz#5506 fix copypasta
+
+
+2018-01-18  David Tardon  <dtardon@redhat.com>  [4c0920c6e26ed953f8893d3129c844fe83f21a4e]
+
+tmerge Lotus fuzzers
+
+
+2018-01-18  osnola  <alonso@loria.fr>  [43a2277a36209e5162176978a8ad864bd5b92e7a]
+
+tQuattro.{h,cpp}[.wb3]: allow to read file protected by a password...
+
+
+2018-01-18  osnola  <alonso@loria.fr>  [f9bbc38a24e6ebd81a11cfcbc9e444def5ed4ad8]
+
+tMultiplan.cpp: avoid potential division by 0...
+
+
+2018-01-18  osnola  <alonso@loria.fr>  [0ab8eab2882b4a09a7ffeb8e95895d9f82a74026]
+
+tWPSOLEParser.{h,cpp}: add code to read the SummaryInformation stream   and returns the potential metadata, Quattro.{h,cpp}[wb3]: parse the other stream in the OLE file in order   to retrieve the pictures and the meta data...
+
+
+2018-01-18  David Tardon  <dtardon@redhat.com>  [b85bfd89a6df924f9131326f3f01fdae1ae91914]
+
+tadd Multiplan fuzzer
+
+
+2018-01-18  David Tardon  <dtardon@redhat.com>  [f847efb5a14d444fab3af90e03988f2b6c55ba56]
+
+tofz#5022 rearrange to avoid signed integer overflow
+
+
+2018-01-18  osnola  <alonso@loria.fr>  [817247073187c4d44f992376c7e35da16747337d]
+
+tQuattroSpreadsheet.cpp: correct center/rigth alignment...
+
+
+2018-01-18  osnola  <alonso@loria.fr>  [a39d1cd2a2d41288686ef7b3846607fce97224e4]
+
+tQuattroPro[wb3]: add basic support for .wb3 document...
+
+
+2018-01-18  osnola  <alonso@loria.fr>  [cd3dca7639eff52c0f6e2d625f73655a814da8dc]
+
+tQuattroSpreadsheet.cpp: add support for default arguments + add some new functions...
+
+
+2018-01-17  osnola  <alonso@loria.fr>  [a35c62330adb5ef9f8b2a8919ab7e76f7807405b]
+
+tMultiplan.cxx: try to recognize some functions introduced in 3.00
+
+
+2018-01-16  osnola  <alonso@loria.fr>  [39983e89a9261036146a8126c1c3b228c303c810]
+
+tMultiplan.{h,cpp}: add support for MS Multiplan v3 Dos files...
+
+
+2018-01-11  osnola  <alonso@loria.fr>  [34a611f6e5251239ab49655b372cf826ec7e4652]
+
+tMultiplan.cpp[v1]: add support for unary operator+
+
+
+2018-01-11  osnola  <alonso@loria.fr>  [7b7446b0dbd7ffd5e891407377598f7d4b743ba0]
+
+tMultiplan.{h,cpp}: add code to retrieve Ms Multiplan v2.00 files...
+
+
+2018-01-06  osnola  <alonso@loria.fr>  [f5c9d1ed298732cd4abcab8473db5d939bb692a8]
+
+tMultiplan.{h,cpp}: add a parser to read Ms Multiplan Dos v1 files... all: replace alignement by alignment
+
+
+2018-01-05  Miklos Vajna  <vmiklos@collabora.co.uk>  [86616dac788d409f66f61cc11a0de06df11e2c48]
+
+tm4: MSVC defines __cplusplus as 199711L still
+
+tSee e.g.
+t<https://stackoverflow.com/questions/37503029/cplusplus-is-equal-to-199711-in-msvc-does-it-support-c11>,
+ton MSVC we can't depend on the value of __cplusplus, since that one is a
+ttoo low value, even if everything else works fine.
+
+2017-11-27  David Tardon  <dtardon@redhat.com>  [cec7e4b57b0e10139d5a5dcede9027b0ea85e07d]
+
+tdrop unneeded include
+
+
+2017-11-24  osnola  <alonso@loria.fr>  [2a3465442d1305c7fec55e986c9793a86e571baa]
+
+tLotus .123: do no assume that a file containing a fdc's structure is   a Mac file :-~
+
+
+2017-11-23  osnola  <alonso@loria.fr>  [5b31a316231e7aa95281e54f6779c036e99ed81e]
+
+tupdate readme files...
+
+
+2017-11-17  David Tardon  <dtardon@redhat.com>  [63d0bdc4d0d3b5ebd99a4a58b7f4edfc3c8867ef]
+
+tofz#1811 avoid big memory allocation
+
+tChange the check added by commit 00709e53a777775a9bcfcb90599e49ed1ff2a1fd
+tto what was likely intended.
+
+2017-11-15  osnola  <alonso@loria.fr>  [80008d3362a2ec1e56120bee9c1d332358582444]
+
+tautogen.sh: fix creation of configure
+
+
+2017-11-14  osnola  <alonso@loria.fr>  [1b056d30bc51dc21352d2dab32dde0fbdc7d2691]
+
+tsrc/conv/*/Makefile.am: uses $(top_srcdir) to find src/conv/helper...
+
+
+2017-11-14  osnola  <alonso@loria.fr>  [f2a0a4fc2d48a99ebb8454dcf6ff36690e5a586e]
+
+tcppcheck: pass more arguments by reference...
+
+
+2017-11-14  osnola  <alonso@loria.fr>  [e86df755812a620821ba5963adf5ff3cfea9a2a8]
+
+tcppcheck: add some explicit keywords...
+
+
+2017-11-14  osnola  <alonso@loria.fr>  [3ac702953769a0ccdbab4953962abd36c196c67f]
+
+tMerge branch 'master' of ssh://git.code.sf.net/p/libwps/code
+
+
+2017-11-14  osnola  <alonso@loria.fr>  [46d00e2a8bf925d900fe9b0f99ffff703253dab0]
+
+tcoverity: correct some warnings/problems...
+
+
+2017-11-02  Miklos Vajna  <vmiklos@collabora.co.uk>  [453f6270365fdfb411ab33f1f084045ec8f05ca2]
+
+tUse auto when declaring iterators and when initializing with a cast
+
+
+2017-10-28  David Tardon  <dtardon@redhat.com>  [038f1813579009c30ffb226048d669ee89634199]
+
+tdrop MSVC project files obsoleted by move to C++11
+
+
+2017-10-25  osnola  <alonso@loria.fr>  [7aa7bbc568d89e69a9656f7f7ac0de0f39c5d28a]
+
+tWKSChart.cpp: do no escapeXML chart:label-string here, it will escape later... LotusChart.cpp: astyle change...
+
+
+2017-10-24  osnola  <alonso@loria.fr>  [ea74822902e74931496a082ff84b4b3b49afc82b]
+
+tLotus*: try to retrieve some .wk4's charts...
+
+
+2017-10-20  osnola  <alonso@loria.fr>  [0a3cb82a299af0fd3196b48b70f55e2d09c2df36]
+
+tLotus*cpp: try to retrieve some Dos/Windows's .wk3 charts, to be   improved...
+
+
+2017-10-17  osnola  <alonso@loria.fr>  [acf436e216c1a73fd4e1b6d095bdde8a42f4f1ad]
+
+tQuattro*[wb2]:   - try to retrieve the OLE's pictures,   - accept to convert such file in non-debug mode WPSOLEParser.{h,cpp}:   - allow to associate a stream name to an object id using a     different method...
+
+
+2017-10-14  osnola  <alonso@loria.fr>  [6c29ccb0a90515cb2c19d53110ac03629f1fd1df]
+
+tWKSContentListener.{h,cpp}: add possiblity to have cell's list which   refer to different spreadsheets... Quattro.{h,cpp}[wb2]: begin to parse some new zones', to be continued...
+
+
+2017-10-13  osnola  <alonso@loria.fr>  [03ea76e6603d042d49e1f341dbcbb6ccf45d7ca7]
+
+tWPSOLEStream.{h,cpp}: the return   + this old class will be needed to parse .wb2 files which     contain the "classic" spreadsheet's data and can also contain     an OLE file (to store the different OLEs).
+
+
+2017-10-12  osnola  <alonso@loria.fr>  [879bdf4b8be4077814ad7ae6eb7b05c4da75c9ad]
+
+tQuattro*[wb1]: try to retrieve the different OLEs'   + retrieve the button's labels in a textbox(very basic).
+
+
+2017-10-11  osnola  <alonso@loria.fr>  [7b43d50371611dfa1cc9efc5155722ddb02ec90a]
+
+tWPSOLEParser: use WPSEmbeddedObject to store the pictures...
+
+
+2017-10-11  osnola  <alonso@loria.fr>  [f94f9d70dd49de6882628cdf26df53901d7bc587]
+
+tWPS4Graph.{h,cpp}: use WPSOLEObject to read the internal OLE data, WPSOLEParser.{h,cpp}: returns the list of read OLE as map...
+
+
+2017-10-10  osnola  <alonso@loria.fr>  [25d8528a349903cdb99a516c1ff0ba936251a725]
+
+tWPSOLEObject: add a class to regroup the reading of "Ole" object...
+
+
+2017-10-09  osnola  <alonso@loria.fr>  [bd369dd2439b61f3f35d8b9577c6f87eaf0cde7d]
+
+tQuattroGraph.{h,cpp}: add a file to parse/retrieve Quattro wb1 graphic,   + begin to parse the buttons' and the OLEs' zones, to be continued, Quattro*.{h,cpp}: change code to read zones with size>0xFF00,
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [a5e334c1e62baf34575499e26e61c7cc9d12299e]
+
+tavoid explicit delete
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [48cd2643425f674c44af7e4e1c17123a5cf3f114]
+
+tno need for virtual dtor here
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [c2cfd8637b490107a9f0b7367a367cef46608b7a]
+
+tavoid naked pointer
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [9c0c7598f6a6dd8400474ecc4a148a421f1d413d]
+
+tnitpick
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [9d09023467ececf38c388de47614150ee39d988f]
+
+tofz#3352 ensure the size of data to read is >0
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [2cf05647f7c8544fca171d375b198dbe4658cc8e]
+
+tavoid int overflow when parsing row
+
+
+2017-10-08  David Tardon  <dtardon@redhat.com>  [b479863157c887d71ba81a8dbd06f5e4ceac44c0]
+
+tofz#3588 avoid int overflow when parsing column
+
+
+2017-10-07  osnola  <alonso@loria.fr>  [35c1ee0c5145957fdf830990dfe121716cc32ebb]
+
+tQuattro*[wb1]: try to recover the field's references and the user formattings(basic)...
+
+
+2017-10-06  David Tardon  <dtardon@redhat.com>  [34adff68702839fd594f0a1aefc05732f48ae049]
+
+tofz#3562 fix OOB read from array
+
+
+2017-10-05  osnola  <alonso@loria.fr>  [3eba0a01c941c989b28c680eedfab98948a1de7c]
+
+tQuattro.cpp[.wb1]: add code to retrieve   - the sheet's names,   - file external references(basic)   - centering across cells(some kind of merging).
+
+
+2017-10-04  osnola  <alonso@loria.fr>  [f194eb7e695b4055a5c0e912cb1de119a95d06ea]
+
+tQuattro*: add support for .wb1 files trying to retrieve the cells' styles,   the columns' width, the row heights,   + add code to read the encrypted files.
+
+
+2017-10-01  osnola  <alonso@loria.fr>  [8d3841566390fa0b1c56eface42d3e8c8be80037]
+
+tLotusChart: try to retrieve wks3(mac) charts,   + begin to store the parsing of wks3(pc) and wks4 charts, to be continued... WKSChart: change code to retrieve more data...
+
+
+2017-09-28  David Tardon  <dtardon@redhat.com>  [4bf54fee3de0a8e7b86a756f267fc35d73bcb5cb]
+
+tavoid output from fuzzers
+
+
+2017-09-27  osnola  <alonso@loria.fr>  [024f27f205adf628fdfc65740b199a51929ebb56]
+
+tofz#3446: correct out of bounds problem...
+
+
+2017-09-27  David Tardon  <dtardon@redhat.com>  [0da9b7ea54f167d0b732601cb146c331e22e6521]
+
+tavoid possible null pointer dereference
+
+
+2017-09-27  David Tardon  <dtardon@redhat.com>  [d73d8a75e1d6bf622555c93599b81b6eebfde363]
+
+tofz#3333 fix null ptr dereference
+
+
+2017-09-26  Miklos Vajna  <vmiklos@collabora.co.uk>  [883e6c375352975f7cc7719a25d655d51fda4b16]
+
+tConvert explicit for loops to range-based ones where possible
+
+tThis is most useful at places where the original loop end condition was a
+tduplicate of the size of an array.
+
+2017-09-25  Miklos Vajna  <vmiklos@collabora.co.uk>  [fa7c60f35ee942788d776ad249644c00bcf54ad6]
+
+tConvert 0 to nullptr where it's used as a pointer value
+
+tTo make the code easier to read, because this means the remaining zeros
+tall mean numbers.
+
+2017-09-24  Miklos Vajna  <vmiklos@collabora.co.uk>  [bc16603ade6c6d6ba7539ca7b671f661f46c1163]
+
+tMark overriding member functions as 'override'
+
+tThis does not affect the generated code (API or ABI), but:
+
+t1) Makes sure that in case the signature of one of these functions would
+tchange by accident, the build breaks as the function no longer overrides
+ta base function.
+
+t2) Makes the code readable by explicitly marking all overriding
+tfunctions as 'override', where previously the reader had to read the
+tinterface of the base class(es) as well to find out if the function is
+tvirtual or not.
+
+t3) Since 'override' implies 'virtual', remove the 'virtual' keyword
+twhere 'override' is present.
+
+2017-09-24  osnola  <alonso@loria.fr>  [51fc8a2645bed492fd92c344d0b94588c6545552]
+
+tMerge branch 'master' of ssh://git.code.sf.net/p/libwps/code
+
+
+2017-09-24  osnola  <alonso@loria.fr>  [caf98e3345a5535f63b084449a658915243f5439]
+
+tLotusChart.{h,cpp}: add a file to parse/retrieve chart structures, ...   - move .wk3 and .wk4 chart's functions in this file,   - begin to parse these structures, to be continued...
+
+
+2017-09-22  Miklos Vajna  <vmiklos@collabora.co.uk>  [c66a51b71d772b1da83ef8d87a155d41f5f5a12e]
+
+tWKSChart: comparison of unsigned enum expression >= 0 is always true
+
+
+2017-09-21  Miklos Vajna  <vmiklos@collabora.co.uk>  [97b7b40caf697e4f6ba62af38cdf4008e2b7bf75]
+
+tWKS4: fix gcc-4.8 -Wshadow warning
+
+tWKS4.cpp: In member function 'bool WKS4Parser::checkHeader(WPSHeader*, bool)':
+tWKS4.cpp:445:7: error: declaration of 'creator' shadows a member of 'this' [-Werror=shadow]
+t  auto creator=libwps::WPS_MSWORKS;
+t       ^
+
+2017-09-21  Miklos Vajna  <vmiklos@collabora.co.uk>  [9836ec5dd09c508972d0f093f3900e3a2f2b68a9]
+
+tFix gcc-4.8 build by adding missing include
+
+thelper.cpp: In function 'void libwpsHelper::printDebugMsg(const char*, ...)':
+thelper.cpp:60:23: error: 'va_start' was not declared in this scope
+t  va_start(args, format);
+t                       ^
+thelper.cpp:62:13: error: 'va_end' was not declared in this scope
+t  va_end(args);
+t             ^
+
+2017-09-19  osnola  <alonso@loria.fr>  [fd01a9bf8b7bc7ff6e6c75045954bf3c9d45d21d]
+
+tWKS4*: try to retrieve chart's in MsWorks 3.0 files...
+
+
+2017-09-16  osnola  <alonso@loria.fr>  [97b97b5c86774834fa53c1053a18ba7db00851d5]
+
+tWKSChart: add code to define the "point" style... WKS4: begin to retrieve the window's wks style, to be continued...
+
+
+2017-09-13  osnola  <alonso@loria.fr>  [c6ea4178e8d5bdd9c6185618d61969f91f267123]
+
+tQuattro*: add preliminary files to parse wb1 and wb2 files   (only activated in debug mode).
+
+
+2017-09-11  David Tardon  <dtardon@redhat.com>  [c8abf491c0330a04655336c24261c3f9d815ecd7]
+
+tWaE: declaration of 'path' shadows a member of 'this'
+
+
+2017-09-11  David Tardon  <dtardon@redhat.com>  [16d85bab358ccf47a79210b54e8998e605d41151]
+
+tWaE: unused parameter
+
+
+2017-09-08  osnola  <alonso@loria.fr>  [863af2c0dc721f9e077ee46fdb0f1b053ac1479a]
+
+trename Quattro* in QuattroDos*...
+
+
+2017-09-08  osnola  <alonso@loria.fr>  [e4ba1787e8a699b0d7946aea4edc82df6812888c]
+
+tWKS4*: try to retrieve chart in Lotus' wk1 files...
+
+
+2017-09-07  osnola  <alonso@loria.fr>  [9e522967285e5c3fb5a0de114cd877ea589ba27c]
+
+tWKS4*: try to recover chart in Dos MsWorks' spreadsheet files...
+
+
+2017-09-05  osnola  <alonso@loria.fr>  [fc6d13400d121eb7570c8c7bf5005db067abea5a]
+
+tWKS4Chart.{h,cpp}: finish to move chart's code in this file   + try to parse the different fields, to be continued...
+
+
+2017-09-03  osnola  <alonso@loria.fr>  [1e6513a3c1ec149fd80aed5c317f7f43a8389fed]
+
+tWKS4Chart.{h,cpp}: add a file to parse chart data, to be continued... WKS4*: try to simplify a little the code...
+
+
+2017-09-02  osnola  <alonso@loria.fr>  [54d8bc9bdf9fa67bea6e3dc175c07e48610490b6]
+
+tQuattroDos: try to improve the chart's style...
+
+
+2017-09-01  osnola  <alonso@loria.fr>  [338418cdaaa4c08fd95a132799c3a4e222e3bec3]
+
+tQuattro Pro: begin to recover some charts, must be improved...
+
+
+2017-08-30  osnola  <alonso@loria.fr>  [0836fefbad4924da1b39a1192420a3bd82478cd9]
+
+tWKSChart*: add a class to store/retrieve chart data, WPSPosition*: add a cell's anchor, WKSContentListener*: allow to insert a chart, QuattroDosChart.*: begin to read the chart's data, to be continue...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [5f5cce68039facb807fa6b845446318a588561c1]
+
+tsrc/conv/*/*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [837d47d04992dfcd92f1ed05ae5b8dc3637386f2]
+
+tWPST*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [8406fdfbf41962ed1ce07190b9d2d1a5229b6b4c]
+
+tWPSS*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [a2b8ccbc38f36f1b5b1353068a8c2c00ab943882]
+
+tWPSP*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [a93d45a06151a745f26b6e4e3e8724d1513dedca]
+
+tWPSO*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [ca5c16f90d87183c78a9659bca43764fc1506960]
+
+tWPS[HL]*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [73c01690a12adbc57ae513fde4c873ef4211ac4e]
+
+tWPS[E-G]*.* : try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [080f1d4e54bffcc0e25eed4f44686392d929caa1]
+
+tWPSDebug*: try to simplify the code...
+
+
+2017-08-08  osnola  <alonso@loria.fr>  [2ca7425ef9a6d8e85d94b9eeca5c49a9feb90117]
+
+tWPSC*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [8d0b45a22455447cc7a4d857cbc2591d39226ec6]
+
+tWPS8*.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [1ec2d12c5ce407b5d7a5e48115324b23daeb67a4]
+
+tWPS8.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [e776eae3a54e9bb48c6eef7173277aeb0d24bda1]
+
+tWPS4*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [e41d8176a3b76a368ddf635d6ad863e20c42bbb9]
+
+tWKS*.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [0130b255cd19543c176d988c23e00c19fb471312]
+
+tWKSContentListener.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [2b6179f78a7c34eec81f11f33c6898ab80dd9d16]
+
+tWKS4*.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [96e3ceb6f5bb63b485b19aef84545270cb886396]
+
+tQuattro*.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [f41768a7df4fc3959581697e5373c20fce232f50]
+
+tMSWrite.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [c9955440c16a12d8db858469c4b2dea4a0c146a5]
+
+tLotus.*: try to simplify the code...
+
+
+2017-08-07  osnola  <alonso@loria.fr>  [6f1c0987d8101fc8132974d6e36e358a5d09e665]
+
+tDosWord.*: try to simplify the code...
+
+
+2017-08-06  osnola  <alonso@loria.fr>  [953902aa9c4296910a66faf78a7ea0f192906d47]
+
+tlibwps_internal.*: try to simplify the code...
+
+
+2017-08-06  osnola  <alonso@loria.fr>  [ae6efc52ac12c5f2def112f93a353d66c5bc1f6e]
+
+tlibwps_internal.h: try to simplify the code...
+
+
+2017-08-06  osnola  <alonso@loria.fr>  [d495497512c60114cfff9dde78d3db469211b67f]
+
+tall: test format's attribute in configure.ac
+
+
+2017-08-06  osnola  <alonso@loria.fr>  [c09ff73d0e8396b6ca55eefa81d047c3d33e0943]
+
+tWKSContentListener.cpp: send row/column positions in formula as int...
+
+
+2017-07-30  osnola  <alonso@loria.fr>  [00eaac00880905a0c058c3f2fc285216fe4731e6]
+
+tm4/dlp_fallthrough: replace clang:fallthrough by clang::fallthrough...
+
+
+2017-07-30  David Tardon  <dtardon@redhat.com>  [e9248f15869ddc876f4194e26899b8c8dc92e634]
+
+tinclude m4 files for C++11 check
+
+
+2017-07-30  David Tardon  <dtardon@redhat.com>  [0b14be00dce19c18a993ad843b337fb3dcbd1e39]
+
+tmove detection of fallthrough attribute to configure
+
+
+2017-07-30  David Tardon  <dtardon@redhat.com>  [37c8b6b2b566d63149fc14f66e47808013b275a8]
+
+tignore only auto-generated m4 files
+
+
+2017-07-26  osnola  <alonso@loria.fr>  [07dbc3565a10ba5c70785b51a55605666c81d67a]
+
+tall: replace XXX::shared_ptr by std::shared_ptr + configure.ac: add AX_CXX_COMPILE_STDCXX_11
+
+
+2017-07-19  osnola  <alonso@loria.fr>  [e97fbd242bf96c7952b277d7cbdd99262077794b]
+
+tclang: do not assume that we can use defined(__has_cpp_attribute) and __has_cpp_attribute(clang::fallthrough) on the same line...
+
+
+2017-07-16  osnola  <alonso@loria.fr>  [b980bfbd4a5a0f27eeb235a97f887df78d95df91]
+
+tconfigure.ac: update micro version...
+
+
+2017-07-16  osnola  <alonso@loria.fr>  [b992069290a4c107bb424ef421ee82ba2ae31357]
+
+tconfigure.ac: update micro version
+
+
+2017-07-16  osnola  <alonso@loria.fr>  [81e5e931109c73e1216aaf4ec9b3de25a650b4ef]
+
+tUpdate README files...
+
+
+2017-07-03  osnola  <alonso@loria.fr>  [e1b2c2f34268d14aa469c88ab89bd9f491168bd0]
+
+tg++7: try to remove some warnings...
+
+
+2017-05-20  osnola  <alonso@loria.fr>  [82183981147344f4f56b69b71a572688542dce65]
+
+tQuattroSpreadsheet.cpp: correct wq1's formula when there is single and double cell's references...
+
+
+2017-04-25  David Tardon  <dtardon@redhat.com>  [282239bc81585de00613823c3768327f8b3ce540]
+
+tofz#1269 fix int overflow
+
+
+2017-04-20  David Tardon  <dtardon@redhat.com>  [b7b092e058807ddfc3d8b25c4702012425e3b04e]
+
+tofz#1083 fix signed integer overflow
+
+
+2017-04-12  David Tardon  <dtardon@redhat.com>  [711b02ce6a1280c79bcba9c9c87672914e32d377]
+
+tofz#1019 fix int overflow
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [d896b8f18a31a184a0a333bf6532ec143727e845]
+
+tadd wq? fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [036742c56e66888815e04ec9fa9e722830fddde7]
+
+tadd wk? fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [8db28cb07e95890da0027949e651bbb2fe81f003]
+
+tadd 123 fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [f54e898ca3408660cf7780504ac11ad1c6a8bd0d]
+
+tadd doc fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [0d98752779dad668536f9d8ddf16952e9ad6ed22]
+
+tadd wri fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [801b3d24fa1820fdbe5ea835a41a4658f3c56348]
+
+tadd wdb fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [82420322242a8d3ef8275eeec39456222be77365]
+
+tadd wks fuzzer
+
+
+2017-04-06  David Tardon  <dtardon@redhat.com>  [cfb4b672014a2f5cc81dec25f6cac6445d2d3f4e]
+
+tadd .gitignore
+
+
+2017-03-31  David Tardon  <dtardon@redhat.com>  [e65c68425ec5befe3c5961046925ad43be6b94d4]
+
+tastyle
+
+
+2017-03-31  David Tardon  <dtardon@redhat.com>  [0c1b069fc1f813a6b3c01fb074e3fc826dc07ae9]
+
+tadd fuzzing driver for oss-fuzz
+
+
+2017-03-04  osnola  <alonso@loria.fr>  [1d29e6f12d6928b2a39df41db5022c0f4ecdf4bb]
+
+tupdate some README's files...
+
+
+2017-03-03  osnola  <alonso@loria.fr>  [71b1309d0961d7d06b5064061a6e293e52663f2e]
+
+tcorrect some cppcheck and coverity warnings, ...
+
+
+2017-03-03  osnola  <alonso@loria.fr>  [edbf8d4b97d3b837fe850b25f0789919e49a2eb5]
+
+t Lotus .wk3,.wk4,.123: try also to retrieve password with length 13       or 14, small correction.
+
+
+2017-03-03  osnola  <alonso@loria.fr>  [9a2fc4978f882d09b687ec28520899a86fa35c81]
+
+tLotus .wk3,.wk4,.123: try also to retrieve password with length 13   or 14...
+
+
+2017-03-03  osnola  <alonso@loria.fr>  [6bd5cb55bf9dfccf331b8cb3e2558dc55244d492]
+
+tCorrect some compilers' warnings...
+
+
+2017-03-02  osnola  <alonso@loria.fr>  [7fec47b58e0847b613994e97815cef2949de6ba2]
+
+tLotus .wk3,.wk4,.123: add a function to retrieve small passwords   (ie. with less than 13 characters), called when a bad password   was given by the user...
+
+
+2017-03-02  osnola  <alonso@loria.fr>  [54bef8967115ce11740320e93a52423c2a1f8fb8]
+
+tLotus .123(SmartSuite 98): add support for password...
+
+
+2017-03-02  osnola  <alonso@loria.fr>  [5b56551409c4be08e338c6da72df064b3585d3e2]
+
+tLotus .123(SmartSuite 97): add support for password...
+
+
+2017-03-02  osnola  <alonso@loria.fr>  [efd8af05edebb43f6eb4fc8897961004c5cbb5ba]
+
+tLotus .wk[124]: add support for password, ...
+
+
+2017-03-01  osnola  <alonso@loria.fr>  [e94f72e01f3b5daead887352fc0fa92a7e25359f]
+
+tLotus .wk3: add support for password, ...
+
+
+2017-02-23  osnola  <alonso@loria.fr>  [402d40740b165efa05d227ff3dc5a96e3953c643]
+
+tLotus SmartSuite 9[6-8]: try to find more dupplicated cell, WPSCell.cpp: force cell's padding to 0pt.
+
+
+2017-02-23  osnola  <alonso@loria.fr>  [44eef88b2230ca42c24fc5365727f6012f97080d]
+
+tLotus SmartSuite 9[6-8]: try to retrieve some "merged" cells...
+
+
+2017-02-23  osnola  <alonso@loria.fr>  [d85a63302997a461bff9979d32415c08968a052d]
+
+tLotus SmartSuite 9[6-8]: better retrieving of column's width(and row's height).
+
+
+2017-02-22  osnola  <alonso@loria.fr>  [0a32c559959a751c69755998d9255c0e5d2960b7]
+
+tLotus SmartSuite 9[6-8]:improve the font's name, the cell's wrapping, the row's height retrieving...
+
+
+2017-01-09  osnola  <alonso@loria.fr>  [b9e9ceeffa6798044bbbfb39b5cb21fe2a592523]
+
+tconfigure.ac: update minor version...
+
+
+2017-01-05  osnola  <alonso@loria.fr>  [d5ebb0c062cfb3d7b200565f22ec3945b0e9b91f]
+
+tUpdate the README files...
+
+
+2017-01-04  osnola  <alonso@loria.fr>  [247ace06ab3902970fc3430862c1c441d46a9054]
+
+tcorrect a cppcheck warning + do not forget to call make astyle...
+
+
+2017-01-01  osnola  <alonso@loria.fr>  [9f07fe0fe7129f7ca20323f1ed02bfb0edaf1d2d]
+
+twps v8: retrieve the vertical alignment in table + try to improve   the lists' indentations, lotus wk4,123: do not define the column's width in auto mode...
+
+
+2016-12-24  osnola  <alonso@loria.fr>  [fb7fb372165ae1828c9cbd53bf9bcc78cc499590]
+
+tLotus 123: do not change gradient's direction in wk4
+
+
+2016-12-23  osnola  <alonso@loria.fr>  [633e73149bbad0e1135a7d363008dd2afc264c1a]
+
+tLotus 123, v4.0: try to retrieve some borders + some numbering formats...
+
+
+2016-12-21  osnola  <alonso@loria.fr>  [830ac17bddd0c39faa8f51b951c6e112a08fd6ed]
+
+tLotus: try to decode LICS characters in on pass.
+
+
+2016-12-21  osnola  <alonso@loria.fr>  [8abb600c180b13f53ebee49821b73fe2efeceadb]
+
+tDo not assume the ordering when computing different function's arguments...
+
+
+2016-12-21  osnola  <alonso@loria.fr>  [79a2e1d7e5d80bfed223ba4b4bd07dcb186dded4]
+
+t*Listener: add basic support for group, WPSCell*: add support for text's rotation, Lotus: begin to retrieve Lotus 123(v4.0) files.
+
+
+2016-11-28  osnola  <alonso@loria.fr>  [f37f5e655d7ea5d7d735f61f27881836e69b09fa]
+
+tLotus 123: add code to retrieve comments...
+
+
+2016-11-27  osnola  <alonso@loria.fr>  [1a0410b62039503e107b0f8e2ec318bb005efaf8]
+
+tlotus wk4: retrieve cell styles with id>=256...
+
+
+2016-10-16  osnola  <alonso@loria.fr>  [72662609c067031167c55815ee98496a3b3f4ff2]
+
+tconfigure.ac: update minor version...
+
+
+2016-10-06  osnola  <alonso@loria.fr>  [aa5565ec851a71ea1d4d27be0f51d88737dcc059]
+
+tafl: add a check to avoid a potential crash...
+
+
+2016-10-03  osnola  <alonso@loria.fr>  [aa00332b4150d09ede0c99ec8917ee7b8607a948]
+
+tUpdate the README files...
+
+
+2016-10-02  osnola  <alonso@loria.fr>  [691cf3ffcb473654734e0361c28b5ae5c56254d4]
+
+tcppcheck: correct some warnings...
+
+
+2016-10-01  osnola  <alonso@loria.fr>  [6fda4b1be7e0d558d603c9933a1e6e400992fd67]
+
+t.wps4: try to recover some pictures with a page's anchor +   recover correctly the dark red's color...
+
+
+2016-09-30  osnola  <alonso@loria.fr>  [149e5f5b58cfbcd20a9e240c733088913a1d7872]
+
+tminor corrections: .wk4: do not replace some underline by bold formatting .wk4: better retrieving of the column widths, .wps4: better retrieving of the list's left margins...
+
+
+2016-09-28  osnola  <alonso@loria.fr>  [275d91901c089072866cd5c73896271cad6479a9]
+
+tconfigure.ac: do not forget to create src/conv/helper/Makefile src/conv/helper/helper.cpp: simplify the creation of the structured stream...
+
+
+2016-09-28  osnola  <alonso@loria.fr>  [27710db1482798a40e7486abfba0384ae5176adf]
+
+tLotus 123, v4: try to retrieve some graphic and textboxes, ...
+
+
+2016-09-26  osnola  <alonso@loria.fr>  [3a529075a87765f6fda02910f48473e40b6ae179]
+
+tlibwps_internal: rename Box2 in WPSBox + add a class to store 2D transformation, WPSGraphicShape: allow to apply a generic transformation to a shape, LotusGraph: begin to retrieve some graphic shape(still not functional)...
+
+
+2016-09-25  osnola  <alonso@loria.fr>  [d624564ef18b4aa11506372f4499e5a561832c18]
+
+tLotus v5: try to name more structures, WPSOLE1Parser: add code to retrieve pictures.
+
+
+2016-09-23  osnola  <alonso@loria.fr>  [67a739c21e6eeae6263e723a3e15646726edee65]
+
+tWPSStringStream: add a class to create a input stream with a list   of data, Lotus 123 v5+: parse the file by reading the container's structures   to find the main zones + retrieve some meta data...
+
+
+2016-09-23  osnola  <alonso@loria.fr>  [8106ff92db31953289f3acfc86bcf4b390e5fb11]
+
+tLotus 123 v5: begin to parse the graphic's shapes + to be continued, ... WPSOLE1Parser: Lotus 123 v5+ files are in fact a container which contains   several stream, add a class WPSOLE1Parser to parse the structure of this   container + begin to modify the Lotus*{h,cpp} to accept these streams,   to be continued...
+
+
+2016-09-20  osnola  <alonso@loria.fr>  [6004385b5401ec5dfad9359483bcd870b70efcfe]
+
+tLotus 123 v5: try to retrieve more formatting commands...
+
+
+2016-09-15  osnola  <alonso@loria.fr>  [87da28b2c342652973c6272bac219d67b7665776]
+
+tLotus 123: try to retrieve some formating commands which can appear   in some text zone Lotus dos .fmt: try to "parse" more structures...
+
+
+2016-09-14  osnola  <alonso@loria.fr>  [ea5efd4b278d2c1607cb18a9df42132ee9c899a9]
+
+tWKS4Format: add a class to parse .FMT files, to be continued...
+
+
+2016-09-14  osnola  <alonso@loria.fr>  [927afb2087a5bc19199698f45f1d47c5586588e6]
+
+tWPSStream: define a basic class to store a RVNGInputStream, its length    and its associated DebugFile, WPSHeader: allow to read a structured stream containing a Lotus Dos file   and its format's file...
+
+
+2016-09-14  osnola  <alonso@loria.fr>  [00709e53a777775a9bcfcb90599e49ed1ff2a1fd]
+
+tLotus 123: try to retrieve some .fm3 formats...
+
+
+2016-09-13  osnola  <alonso@loria.fr>  [65f8e33f82c640f3ea884be86154d0f28f091452]
+
+tlib/Lotus*: modified the code to accept also structured input   containing a .wk3 file and a .fm3 file   + begin to read some extra style's fields, to be continued... conv/helper: add an helper class to output error message and   to check if the file is an .wk3 file and if there exists an   .fm3 file with same basename, if so create a structured input   containing these two files.
+
+
+2016-08-24  osnola  <alonso@loria.fr>  [4a7e27b6054b0665fc5f3568ea2d96ddb70a658d]
+
+tRemove some unneeded virtual keywords + minor corrections...
+
+
+2016-08-20  osnola  <alonso@loria.fr>  [be3e65bb7b934c74e797e4c3482603db6d1ba54b]
+
+tLotus.cpp: simplify code..
+
+
+2016-05-31  osnola  <alonso@loria.fr>  [ed353bb70c56fe1cb53a7dfe338200564d06e9dc]
+
+tTry to read the zone 0x36 in wks/wdb files...
+
+
+2016-05-30  osnola  <alonso@loria.fr>  [818d9c4f527f08965e17ac9146286f3171622f5d]
+
+tWKSContentListener: do not use gmtime to convert a date as this can   cause problem on Windows, ie. convert by hand a double to a date...
+
+
+2016-04-03  osnola  <alonso@loria.fr>  [66a8d5c2586954cce48e87c8d8692473de07ec95]
+
+tLotus 123: little cleaning...
+
+
+2016-04-03  osnola  <alonso@loria.fr>  [94c6921e313e132daa551b77b451fc06a70a3031]
+
+tLotus 123: try to read some new fields...
+
+
+2016-02-14  David Tardon  <dtardon@redhat.com>  [d72a27d03f3b49188d84f723b3c7c325427eabae]
+
+tremove stray :
+
+
+2016-02-13  Sean Young  <sean@mess.org>  [3723c866e4784a1863a72d90ea9edd2a4e643112]
+
+tBump version for next release
+
+
+2016-02-12  Sean Young  <sean@mess.org>  [e6a9acf032563b16e2094435de1327b5597031c4]
+
+tUpdate for release
+
+
+2016-02-12  Sean Young  <sean@mess.org>  [9b639eb30e8a0b2b32e5af86eee20876ee5e5165]
+
+tDosWord: improve metadata parser
+
+
+2016-02-12  Sean Young  <sean@mess.org>  [0c49ad6c0c8916f9becb3c47c2f6bed376171893]
+
+tFix Visual Studio 2013 warning
+
+
+2016-02-11  Sean Young  <sean@mess.org>  [6563af03f6cfeefa8bf8d6dffcd7c3e69127c0a0]
+
+tDosWord: implement section breaks
+
+
+2016-02-11  Sean Young  <sean@mess.org>  [93f252bdaf71c0e52a68707e851eb46978cb8792]
+
+tDosWord: ensure that we fall back to 1 column when needed
+
+
+2016-02-11  Sean Young  <sean@mess.org>  [78e87f7d402b055d8de9307980fc0dd755f8f45f]
+
+tFix --enable-static-tools
+
+
+2016-02-11  Sean Young  <sean@mess.org>  [af4f650c82b2480ef546f0409cab690538c2ed46]
+
+tfix compiler warnings
+
+
+2016-02-11  osnola  <alonso@loria.fr>  [947830d164480c19ae14aa28cbab3683a6fa92b5]
+
+tCorrect a compiler's warning...
+
+
+2016-02-09  Sean Young  <sean@mess.org>  [431eb2b03dffae2e6962a7b3801106a7bf48df5e]
+
+tMSWrite: restore original section parser and move DosWord section parser
+
+
+2016-02-09  Sean Young  <sean@mess.org>  [a7efcf26d143ead095f6bda98c74b7b28fc7ff0a]
+
+tDosWord: remove unneeded page breaks
+
+
+2016-02-08  Sean Young  <sean@mess.org>  [a689aa1f01a090b30c1a88cd25e921d0af6f6a15]
+
+tDosWord: simplify column code
+
+
+2016-02-07  Sean Young  <sean@mess.org>  [dae1df122fc686479f9e1d475370d00bb8e7e692]
+
+tDosWord: implement reading partial SEP
+
+
+2016-02-07  Sean Young  <sean@mess.org>  [c366b5070e01fe1cfbe0a3166fbaa561cdb4b115]
+
+tDosWord: implement columns
+
+
+2016-02-05  Sean Young  <sean@mess.org>  [32cbeb0da5406ed6f5cfe518776e9b1060af7968]
+
+tDosWord: support multiple sections
+
+
+2015-12-26  David Tardon  <dtardon@redhat.com>  [6e99c7d188a044a4bf7f21ec4f060c6b77e6f579]
+
+tsimplify distribution and installation of headers
+
+
+2015-12-26  David Tardon  <dtardon@redhat.com>  [8a5a212dd2bac3587d5611f777b8f23b75b0419c]
+
+tmake --help output more help2man-friendly
+
+
+2015-12-26  David Tardon  <dtardon@redhat.com>  [3a0593a17240fe5959bcb092514d5e79f2f7502e]
+
+tupdate CREDITS to reflect reality
+
+t... and remove stuff evidently copied from librevenge, which had been
+titself copied from libwpd.
+
+2015-12-02  osnola  <alonso@loria.fr>  [9ba5aab538f1aba633d3066ecd82ba66068dee2e]
+
+tLotusSpreadsheet.cpp: remove a unused function...
+
+
+2015-12-02  osnola  <alonso@loria.fr>  [ccf0a7875fc6f6219c71fc4163400c0d41b76973]
+
+tCorrect some compilers' warnings...
+
+
+2015-12-02  osnola  <alonso@loria.fr>  [6b94b63c379d6500d5df8ce3ad7fd6c78cc9d7db]
+
+tLotusSpreadsheet.cpp: do some cleaning...
+
+
+2015-12-01  osnola  <alonso@loria.fr>  [dca8cd4fad137cc56ef595f6df2f7dc99c0d9481]
+
+tLotus parser: finish improving the creation of spreadsheet   send all row containings some styles using table:number-rows-repeated   if needed.
+
+
+2015-11-30  osnola  <alonso@loria.fr>  [18fa79527871df799cc13ea5e556d55cfb8b3e6e]
+
+tLotus parser: improve the code to send all cells in a row:   + output the style of cell with no content when defined,   + use table:number-columns-repeated when needed.
+
+
+2015-11-29  osnola  <alonso@loria.fr>  [402b72cd3ecf6c5d249ffeb4d46f6f9604d3a526]
+
+tLotus parser: add a struct to store the formats in a row more compactly, 	to be continued...
+
+
+2015-11-29  osnola  <alonso@loria.fr>  [f5ab5031380bd523efcc5cfd95263419ecaf6c72]
+
+tspreadsheet parsers: improve the storage of the rows' heights and   the functions to access them...
+
+
+2015-11-28  osnola  <alonso@loria.fr>  [225509ef301ad33a2acd4f1686501df529a7349b]
+
+tDo some cleaning: remove some duplicated structrures and simplify   some spreadsheet's code...
+
+
+2015-11-28  osnola  <alonso@loria.fr>  [69a80f7f1976042c13d74ad08403684fe7a8c85f]
+
+tLotusSpreadsheet.cpp begin to modify code to use table:number-rows-repeated +       improve the code to send spreadsheet's to be continued, ...
+
+
+2015-11-27  osnola  <alonso@loria.fr>  [3bed8236f8df155f8239eec61f58521b135f6021]
+
+twks2csv: add options to retrieve the numbers of sheet in the original   file and to select the sheet which will be converted.
+
+
+2015-11-27  osnola  <alonso@loria.fr>  [78fff8c9d59594734311ecce78467af64075f4fe]
+
+twks2text: output all sheets if the file contains many sheets.
+
+
+2015-11-27  osnola  <alonso@loria.fr>  [2ba6d87bccc7e89b44fc802e68b09d514be22f65]
+
+tSpreadsheet's creation: begin to modify code to use table:number-rows-repeated,   to be continued, ...
+
+
+2015-11-25  osnola  <alonso@loria.fr>  [095488a1a3992ccef1b3032c050cde6871426a29]
+
+tCreate a class to store/send a field:WPSField + modify the code   to use it.
+
+
+2015-11-19  Sean Young  <sean@mess.org>  [9d7ec4cce79f2e1ab1c71d7c4a680fd8782a7243]
+
+tDosWord: Add prefix to Footnote members
+
+
+2015-11-19  Sean Young  <sean@mess.org>  [db5d5044ec4c76991d86f05edcc2722859b03149]
+
+tDosWord: ignore headers and footers in body of text for now
+
+tIn Word for DOS, at any point a header or footer can be defined; this
+tmeans that the following page will have this header and/or footer.
+
+tIn the MS Write format, only headers and footers can be defined at the
+tvery beginning of the document. Enforce this for both formats for now;
+tthis fixes the parser dropping large sections of text before headers
+tor footers.
+
+2015-11-18  Sean Young  <sean@mess.org>  [132e59f92d7de6a537ccd33fcd7a59554dd830dd]
+
+tDosWord: footnote reference can only be in the main text
+
+
+2015-11-17  Sean Young  <sean@mess.org>  [1e80636dc589a75c9a18437f65e1a333af03f864]
+
+tDosWord: fix annotations
+
+tThis fixes:
+t - recognise annotation references
+t - annotations can follow the main text just like footers
+t - footnotes and annotations references can only occur in the main text
+
+2015-11-15  osnola  <alonso@loria.fr>  [49c10acad8e488bf651c98053b42f73a2ec19d30]
+
+tcppcheck: add explicit before some constructors...
+
+
+2015-11-15  osnola  <alonso@loria.fr>  [bb81e52410612d45148f985b307e7ed81e019ab5]
+
+tcorrect some compilers' warnings...
+
+
+2015-11-12  Sean Young  <sean@mess.org>  [7bc1bfb4cd801b7c3f1e413c51d86d5c64299e1d]
+
+tDosWord: implement paragraph spacing
+
+
+2015-11-12  Sean Young  <sean@mess.org>  [3fbe115ecb22f91981cfab804a4dbc09f57b32a3]
+
+tDosWord: add next page field
+
+
+2015-11-11  Sean Young  <sean@mess.org>  [a8108ab82c73977cc1ec926cef663132dc390968]
+
+tRemove work from other branch which breaks build
+
+tThis was not meant to be committed, apologies.
+
+2015-11-11  Sean Young  <sean@mess.org>  [262f523eedb7f985bcc3f0b29f3477973e966542]
+
+tMSWrite: fix signedness warning
+
+
+2015-11-11  Sean Young  <sean@mess.org>  [4d7163c2983f8c4ef7fcc616d6bcc048cbf4275a]
+
+tDosWord: paragraph shading
+
+
+2015-11-10  Sean Young  <sean@mess.org>  [3928b784e49a9f0c4d8debbeb8c8ed6710b9301d]
+
+tDosWord: running head can be first page only
+
+
+2015-11-10  Sean Young  <sean@mess.org>  [8f7869a48a9143b98bbd32b264db8b486f560b4d]
+
+tDosWord: running head can use margins
+
+
+2015-11-10  Sean Young  <sean@mess.org>  [8d24272ca9bde424312d1a6c97d7df69fcf974bd]
+
+tDosWord: paragraph keep together
+
+
+2015-11-08  Sean Young  <sean@mess.org>  [bb9e192fe238c25fb960f558430f5199c2ef7fa3]
+
+tDosWord: detect garbage summary page
+
+
+2015-11-05  Sean Young  <sean@mess.org>  [a7cdfab7e15c4ff15542d3e2db06b63e1cef9eee]
+
+tMsWrite: fcLim of the last pap can extend beyond end
+
+tFixes regression introduced in "c813ab4 Add Microsoft Word for DOS parser".
+
+2015-11-03  Sean Young  <sean@mess.org>  [f9639751812aa2efdd136ec8a9928a5a684a0b2f]
+
+tAdd DosWord to news
+
+
+2015-11-03  Sean Young  <sean@mess.org>  [22170df229d2cc2ae18135075863dd61d5d1c166]
+
+tDosWord: handle control codes
+
+
+2015-11-03  Sean Young  <sean@mess.org>  [be070fab9aa18535df0f544d779a079ff45b4041]
+
+tDosWord: Word for DOS 5.5 is version 7
+
+
+2015-11-01  Sean Young  <sean@mess.org>  [e92c2183481d21262631dbc8c810a4d0b47cf4a7]
+
+tMsWrite: fix MSVC warning
+
+
+2015-11-01  Sean Young  <sean@mess.org>  [0e501f94878802a0fba69198025b1c06cdfec71e]
+
+tAdd DosWord.{h,cpp} in build/win32/libwps.dsp
+
+
+2015-10-29  Sean Young  <sean@mess.org>  [c813ab48dd78b53f6bed6ef7d0861444cb7b34e3]
+
+tAdd Microsoft Word for DOS parser
+
+tShould read text of all versions but not all features are
+timplemented.  Basic character and paragraph formatting is
+tsupported. Missing features:
+
+t - style sheets
+t - bookmarks
+t - sequences
+t - any feature added after Word 5.0
+t - various FIXMEs in the code
+
+tTest documents would be really appreciated; I do not have many.
+
+2015-10-29  Sean Young  <sean@mess.org>  [3bae81d8696909312f2e30efa0fa0d38a0b55362]
+
+tMsWrite: truncate larger FODs, don't reject
+
+
+2015-10-29  Sean Young  <sean@mess.org>  [f7ac071cfa95a2bc712b5a6d7c4ce3fc7bfb368d]
+
+tMsWrite: simplify and reduce class members (nfc)
+
+
+2015-10-23  Sean Young  <sean@mess.org>  [1cc6449c68171aae750429f174491bdb6a545df9]
+
+tMsWrite: do not detect Microsoft Word for DOS documents as MsWrite
+
+tThese formats are very similar in structure but this parser won't
+twork for Word for DOS.
+
+2015-10-23  Sean Young  <sean@mess.org>  [6f2ac0b8b247f8fee5be2160c5dfaeed88121f9c]
+
+tMsWrite: don't read the same FOD twice
+
+
+2015-10-23  Sean Young  <sean@mess.org>  [7bd194be0fbc1f2cb43192bf5d377bf4588c8be5]
+
+tMsWrite: factor out common FOD reading code
+
+
+2015-10-19  Sean Young  <sean@mess.org>  [f0dfc03983677ca003e79920b8ecc78fcb58378a]
+
+tMsWrite: fix paranoid warning
+
+
+2015-10-16  Sean Young  <sean@mess.org>  [6e57e826aefd5d702b761009d7eb5391799cb850]
+
+tMicro optimisation: do not append utf8 byte-by-byte
+
+tThis improves performance by 4% on some unicode heavy documents.
+
+2015-10-16  Sean Young  <sean@mess.org>  [9b93809b575dacfbec3d36e8cd737595191ff112]
+
+tMsWrite: optimize parser for document with many page breaks
+
+tDo not parse headers and footers for each page break; this ensures there
+tis a single page span. Parsing this file goes from 230 seconds to 3 seconds
+ton armv7.
+
+thttp://libmswrite.cvs.sourceforge.net/viewvc/libmswrite/libmswrite/wri-files/corrupt/a0.wri
+
+2015-10-16  osnola  <alonso@loria.fr>  [fe29160cdff55c6a4f84506198b7ddc2d40b8c47]
+
+tAlso replace float constant number by "double" when reading double value...
+
+
+2015-10-16  osnola  <alonso@loria.fr>  [c6caa6fd7f0c92688cec9d127e9fed5702ed2f99]
+
+tBasic merge...
+
+
+2015-10-16  osnola  <alonso@loria.fr>  [394f21a421754d047f2802b8a2c13fbb44e593ff]
+
+tUse double when reading double value :-)
+
+
+2015-10-15  Sean Young  <sean@mess.org>  [1558060c08f84873bdfabec2d76726d84e0de96a]
+
+tMsWrite: improve debug messages
+
+
+2015-10-06  Sean Young  <sean@mess.org>  [53c03b23520005aac0fb9b3036a200d63c7a8f06]
+
+tadd missing include
+
+
+2015-10-05  osnola  <alonso@loria.fr>  [6e70b568eab6493796de195e28b4393db1d769d0]
+
+tBump version number...
+
+
+2015-10-05  Sean Young  <sean@mess.org>  [cb2aeff67ab918e5e3f3d402f7bc16e77390f4ab]
+
+tMsWrite: fix MSVC warning
+
+
+2015-10-05  osnola  <alonso@loria.fr>  [555bacf651fbb1696d07f8725f87406047e9e529]
+
+tUpdate "READMEs"
+
+
+2015-10-03  osnola  <alonso@loria.fr>  [f234496e171df19701255d1ea0e7b410d7712d5b]
+
+tMSWrite: add a constructor to MSWriteParserInternal::PAP to make g++ happy...
+
+
+2015-10-03  osnola  <alonso@loria.fr>  [baa55328f7f5de31d677e0e65ec75839129547e5]
+
+tcppcheck: try to remove some warnings...
+
+
+2015-10-03  osnola  <alonso@loria.fr>  [5fae46aea9e9fda0f196e5fe41641193e4d7de9d]
+
+tContinue to treat lineHeight<0.5 as errors in WPS8 documents...
+
+
+2015-10-01  Sean Young  <sean@mess.org>  [0ec7cf510428e53636de17e0be9c320d999df2f0]
+
+tMsWrite: reduce casts by changing types
+
+
+2015-10-01  osnola  <alonso@loria.fr>  [9675874cbed496384b7d9069e4124e073828442a]
+
+tMinor: use normal characters in comments...
+
+
+2015-10-01  osnola  <alonso@loria.fr>  [b25beb1e0a829c142db4c65171b911a0dd0f338c]
+
+tClang analyzer: try to activate more warnings...
+
+
+2015-10-01  osnola  <alonso@loria.fr>  [878b6590300015aab96d9be07e27eed51f99e633]
+
+tCorrect some coverity and some clang warnings...
+
+
+2015-09-30  Sean Young  <sean@mess.org>  [8ae8a25b62bb0206545ca5668861b7e803c7b29d]
+
+tMsWrite: implement CP950 encoding
+
+
+2015-09-30  Sean Young  <sean@mess.org>  [b05862ade11b2ec3f90e9c04025195e2b054dc97]
+
+tMsWrite: implement CP932 encoding
+
+
+2015-09-30  Sean Young  <sean@mess.org>  [de94b57100f3cd64209374f24ef061e3becad9d0]
+
+tMsWrite: parse text as string for multibyte encodings
+
+
+2015-09-29  Sean Young  <sean@mess.org>  [b7ec7b4f84e1d62225592ca55a43c7059897af8c]
+
+tMsWrite: handle headers/footers on first page correctly
+
+
+2015-09-28  Sean Young  <sean@mess.org>  [f3c1e952af3cd5f82af6bed54a462250ed47d5a5]
+
+tMsWrite: 0 byte produces a box too
+
+
+2015-09-25  Sean Young  <sean@mess.org>  [8be7d3b8c80e7aa90f1c6f61458abdc4ddca4dd4]
+
+tMsWrite: use style:line-height-at-least for interline spacing
+
+tThe interline spacings are dependant on the height of the font (at
+tleast the size of the first character). LibreOffice imports spacings
+tin rtf with the height of (size / 72) inch, which is pretty accurate.
+
+2015-09-23  Sean Young  <sean@mess.org>  [58c419d38139bac829579098ffda6199f5cdb6aa]
+
+tMsWrite: convert control codes to boxes
+
+tThis is how MSWrite renders them
+
+2015-09-11  Sean Young  <sean@mess.org>  [5091c79d65e27388afab3bc7cc3dea4638348662]
+
+tMsWrite: convert Wingdings
+
+
+2015-09-09  Sean Young  <sean@mess.org>  [c4f6c4c95cc0e039a23b16d6a711abad28e70605]
+
+tMsWrite: fix overlapping pictures
+
+tIf two or more images immediately follow each other, they should be
+tunder each other, not on top.
+
+2015-09-09  Sean Young  <sean@mess.org>  [c14283a2bee75824ec757f3404c53676450f9127]
+
+tMsWrite: implement object scaling
+
+
+2015-09-09  Sean Young  <sean@mess.org>  [e3bc2e7bf6e71c42197de1316152400bd324970e]
+
+tMsWrite: changing unit for size also changes unit for origin
+
+
+2015-09-09  Sean Young  <sean@mess.org>  [186dfa9877688424ccdd2a70f447c3ad49697f5c]
+
+tMsWrite: setting origin for not left-aligned objects cancels alignment
+
+
+2015-09-09  Sean Young  <sean@mess.org>  [86cb7f61769ee05104f3769b5a47349a5cb57427]
+
+tMsWrite: justified objects behave like left aligned objects
+
+
+2015-09-07  Sean Young  <sean@mess.org>  [8f7696e0dd4460d432f6d97ebc1e7b745ca87946]
+
+tMsWrite: cppcheck suggestions
+
+
+2015-09-07  Sean Young  <sean@mess.org>  [68cd5be21442f8ca24b2350117437ed3ca4c7af0]
+
+tMsWrite: improve file boundary checks
+
+
+2015-09-07  Sean Young  <sean@mess.org>  [de3e2e823679c4fa3e137ea111118e97c5bbb2fa]
+
+tMsWrite: 15 bits dib do not have a palette
+
+
+2015-09-06  Sean Young  <sean@mess.org>  [ed3dc949254205227c04d0a79a2045968deec0d8]
+
+tMsWrite: read replacement objects WPSContentListener/WKSContentListener: add functions to insert object   with replacements.   ( todo: replace old calls to insertPicture(with a RNVGBinaryData) by   new insertObject functions... )
+
+
+2015-09-04  Sean Young  <sean@mess.org>  [3d1a33faa67283eb37e57ece52272827684f82d0]
+
+tMSWrite: Static OLE objects can appear as replacements for embedded OLE objects; 	prepare processStaticOLE function for this.
+
+
+2015-09-04  Sean Young  <sean@mess.org>  [a56a441e2fe1ce768eadf450f2d5c8e7a21171f3]
+
+tMsWrite: put static ole in own function
+
+
+2015-09-04  Sean Young  <sean@mess.org>  [c5283715f238555fe11c0a34f54bf786af267e08]
+
+tMsWrite: fix size and position of objects, WPSPosition: add ParagraphContent and PageContent positions.
+
+
+2015-09-03  Sean Young  <sean@mess.org>  [13bbe69d54afffe595d7637c6b10d905f824f931]
+
+tMsWrite: step over tab when indent matches
+
+
+2015-09-03  Sean Young  <sean@mess.org>  [a1664e2ac7651c532d8b98435560a7c3c2534cfa]
+
+tMsWrite: fix header/footer margins
+
+
+2015-09-03  Sean Young  <sean@mess.org>  [7e0edbd754b43383931ceef40f8c3f1e9e9ff8d5]
+
+tMsWrite: paragraph indents are signed
+
+
+2015-09-02  osnola  <alonso@loria.fr>  [507a078cceb6c6e64815da11385ac6fa12ebaa19]
+
+ttext converters: improve the info/error messages
+
+
+2015-09-02  Sean Young  <sean@mess.org>  [5f588cb279449f338a49aea8b9bf4532333f0c4e]
+
+tMsWrite: mention MsWrite's support in the command line tools
+
+
+2015-09-02  Sean Young  <sean@mess.org>  [50734c15a68257fcd9bb0c67e2b67d582f389647]
+
+tMsWrite: Fix possible corruption with headers and footers
+
+
+2015-09-02  Sean Young  <sean@mess.org>  [bb8fb4cadb519739004b8aa209f48eecd1af8afd]
+
+tMsWrite: improve headers/footers   Do not overwrite header with the footer and fix page numbers.
+
+
+2015-09-02  Sean Young  <sean@mess.org>  [4e27772d2760ce9dab5143590e945a6883dbe550]
+
+tMsWrite: fix some misleading messages
+
+
+2015-09-02  Sean Young  <sean@mess.org>  [d954d7e47f52ec7df999dae1b2618b232addb841]
+
+tMsWrite: more --enable-wparanoic fixes
+
+
+2015-09-02  Sean Young  <sean@mess.org>  [5c3f8f6303700157c71f03b673d14f6def159b66]
+
+tMsWrite: deal with non-ascii fonts (Note that CJK files have multibyte encoding and are still not supported, but at least we do not end up with corrupt odt files.)
+
+
+2015-09-01  Sean Young  <sean@mess.org>  [b040efde2ccbaea414415f45e591855f1c2ab0ef]
+
+tMsWrite: Implemented various changes to make code portable...
+
+
+2015-08-31  David Tardon  <dtardon@redhat.com>  [de94f4f83973df18a0cea257656c9cdc0fdd214b]
+
+terror: 'atoi' was not declared in this scope
+
+
+2015-08-30  David Tardon  <dtardon@redhat.com>  [bc6f0f3a006123a89d1321038edeb75f2fd67c6f]
+
+tadd missing include
+
+
+2015-08-30  David Tardon  <dtardon@redhat.com>  [4ecff61afc831cddc64a85018c181b8faccd138e]
+
+tautomatically pass -std=c++11 if needed
+
+
+2015-08-30  David Tardon  <dtardon@redhat.com>  [65ec46cb8647cd056b9d0b60ad906b02301aef4c]
+
+tremove unused argument
+
+
+2015-08-29  David Tardon  <dtardon@redhat.com>  [d386ba8af0e1be58795448540c959656652550bf]
+
+tavoid use of uninitialized value in comparison
+
+t... to keep the code valgrind-clean.
+
+2015-08-27  Sean Young  <sean@mess.org>  [2d183e88a6393f8ad58c979cac082a0f0c6f962b]
+
+tMSWrite: Implemented various changes to make code portable and more compliant with 	coding style.
+
+
+2015-08-27  osnola  <alonso@loria.fr>  [ad5cc4b72f1c01a3acdcb7807f06ba2dee6e301e]
+
+tall: move WPSListener::appendUnicode in libwps::appendUnicode, ...
+
+
+2015-08-27  osnola  <alonso@loria.fr>  [6eddd39bebd2254e7cbfc1da258c512afc1b99f6]
+
+tMSWrite: store font's name as librevenge::RVNGString...
+
+
+2015-08-27  osnola  <alonso@loria.fr>  [9c97c1e7e5b3858a6e185d940e239369112e9254]
+
+tWPSFont: store the font name as librevenge::RVNGString, which seems   more convenient to store no latin characters (even if libodfgen will   not understand them).
+
+
+2015-08-27  osnola  <alonso@loria.fr>  [a82c3a4f13ad11699aeafc9f52e8d795a90c4e3b]
+
+tWPSContentListener: be a little less strict when we do not find the page description  (ie. do not throw but use the last page description).
+
+
+2015-08-27  osnola  <alonso@loria.fr>  [28e327b703f06df8953297763c3f3dd87ce3941c]
+
+tAdd MsWrite.{h,cpp} in build/win32/libwps.*
+
+
+2015-08-27  Sean Young  <sean@XXXX.XXX>  [b7566b6f7db8f33517bd2508f007f49a7460f498]
+
+tBegin to create a parser for MSWrite file...
+
+
+2015-08-24  osnola  <alonso@loria.fr>  [59d31d9c42221f6f03572f42f59ae601d5ada3a5]
+
+tBump version numbers...
+
+
+2015-08-24  osnola  <alonso@loria.fr>  [5cdb4d439b39bdee81f7651b2a9bd9b1e2deacfb]
+
+tupdate CHANGES file.
+
+
+2015-08-22  David Tardon  <dtardon@redhat.com>  [9f93238d164104d34a09a446fc20b7acd60ee447]
+
+timprove perf. of output of some sheets
+
+
+2015-08-21  David Tardon  <dtardon@redhat.com>  [42382031696bc15c321a07b025034a76996b0682]
+
+tafl: ignore a table nested in itself
+
+
+2015-08-20  David Tardon  <dtardon@redhat.com>  [33719df6a03884312d24de5dae9ec1bfd5bdf486]
+
+tafl: id can be < 0
+
+
+2015-08-08  osnola  <alonso@loria.fr>  [b4b8c3a591f5f739ee168d08fef5837f89dc5df8]
+
+tcorrect a compiler's warning...
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [f086f5a4cc5ae30de6f4c639717c3abe743059b7]
+
+timprove perf. of output of sheets
+
+tThe improvement is especially significant for large grids with only a
+tfew non-empty cells. Here the complexity of the algorithm goes from
+tworse than quadratic to nearly linear.
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [0ec53305f9709bbf15fe5e66643f176ff827d24a]
+
+tafl: do not loop forever if plc has wrong pos
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [07150be6386eb5298ee84b71620061da02e8f84a]
+
+tafl: avoid arithmetic overflow
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [796bbaa1fc4d49755647f5cfd8f7b0714e83ae59]
+
+tafl: avoid arithmetic overflow
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [4c05c03b3c9db45f18c3cce0303b7607ce8ea334]
+
+tafl: avoid arithmetic overflow
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [1af6e01412247066cd660c5de3542e958efa341f]
+
+tafl: check length of the entry
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [09f30408a7bfaf373ccf483e0576a073952152f9]
+
+tafl: avoid arithmetic overflow
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [14afe66d20cbda77ec86979795526cdefa51380e]
+
+tafl: avoid out-of bounds index
+
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [4aa2c8408d13b4df592d5a5ab5e1b9beb99a50fb]
+
+tmake the data length sanity check really work
+
+tDefined as int, nPLC could end up being negative in broken files. In
+tthat case it would always be smaller than length, there would be no
+tearly exit and the parsing would (seemingly) hang, trying to process an
+tinsane amount of entries.
+
+2015-08-07  David Tardon  <dtardon@redhat.com>  [3266269584c1ad98b6e122647679fec607de0380]
+
+tafl: avoid use of -1 as vector index
+
+tThis is probably not the best solution, but it is the simplest one...
+
+2015-05-18  David Tardon  <dtardon@redhat.com>  [94af34d42129bad72fd7ce50dc6901287509703e]
+
+terror C2065: M_PI : undeclared identifier
+
+
+2015-05-18  David Tardon  <dtardon@redhat.com>  [62bdf2ca3b829ab1fb5cb85ddd9efe4e74cac055]
+
+twarning C4138: '*/' found outside of comment
+
+
+2015-05-18  osnola  <alonso@loria.fr>  [45a3dd5393e07340d5a63d8a8735789d73a61b17]
+
+tQuattroPro parser: correct a mistake when reading negative cell's position
+
+
+2015-05-16  David Tardon  <dtardon@redhat.com>  [e5549eec76571fb03f1171e3f29b8c2d7652c7ab]
+
+tuse the same version format
+
+
+2015-05-16  osnola  <alonso@loria.fr>  [8582fd82a0cd64cd48d516a390177a609d2805fd]
+
+tBump version
+
+
+2015-05-13  osnola  <alonso@loria.fr>  [665042ebfce84ae4076e6f3ba0320478f62ba9f3]
+
+tAll: avoid calling assert...
+
+
+2015-03-13  osnola  <alonso@loria.fr>  [7372f7f13f3355c3ecf4779693e68fb7cdb6105e]
+
+tMakefile.am: add astyle command libwps_internal.h: try to improve the format attribute's definition (for clang++ and g++)...
+
+
+2015-03-12  osnola  <alonso@loria.fr>  [d7280516d11f9231fa5632283bacb0f3fb00cfa4]
+
+tWPS_DEBUG_MSG: display error messages on stderr...
+
+
+2015-03-12  osnola  <alonso@loria.fr>  [c42b2a443ab60e9a4558c605dbd5bbe571979958]
+
+tLotus DOS parser: add Lotus Symphony's additional formats.
+
+
+2015-03-11  osnola  <alonso@loria.fr>  [e0561857e3be387e67ea0e08430a7f6f59b10c1a]
+
+tQuattro Pro wq2: retrieve the rows' height and the columns' width.
+
+
+2015-03-11  osnola  <alonso@loria.fr>  [e9c0de86ac14c7e07abc299debead22ab50d0615]
+
+tdoxygen: update doxygen.cfg to avoid warnings about obsolete flags, Quattro Pro wq2 files: try to retrieve the cell's properties, cppcheck: remove some warnings...
+
+
+2015-03-10  osnola  <alonso@loria.fr>  [a7310420294c608df38f9190653f5edf0c40e835]
+
+tbasic merge...
+
+
+2015-03-10  osnola  <alonso@loria.fr>  [4cd2e1b4feff821230af4a41be8b3e2d70076877]
+
+tQuattro Pro parser: add code to retrieve cell and font properties...
+
+
+2015-03-10  David Tardon  <dtardon@redhat.com>  [41350dde2768f1e0ba6e21e6f517c646bc044d96]
+
+tfix build error with gcc5
+
+tstd::map<Vec2i, Cell, ComparePosition> and std::map<Vec2i, Cell> are
+tdistinct types. So are their iterators.
+
+2015-03-08  osnola  <alonso@loria.fr>  [337ec7c32bc82bad8df45d66955a1f6e9ecbee2a]
+
+tSplit files WKS4* in two: Quattro* files (to parse Quattro Pro DOS files) and WKS4* to parse other DOS files...
+
+
+2015-03-08  osnola  <alonso@loria.fr>  [87420323dfb0560ea112bd1c56390a9c70c8206f]
+
+tQuattro Pro parser: retrieve the formula + retrieve multisheet (wq2)...
+
+
+2015-03-06  osnola  <alonso@loria.fr>  [250f382f02d5179d1777067e7916caea99a4a3b5]
+
+tQuattro Pro: add a minimalist parser for wq1 and wq2 documents...
+
+
+2015-03-02  osnola  <alonso@loria.fr>  [a545b2f3dccce07d1ebe99b856418250ae9e63df]
+
+tAdd some new character encodings + use CP437 as default encoding for Lotus files...
+
+
+2015-02-27  osnola  <alonso@loria.fr>  [5b29c22d224ddad812df125b778e8cd4ba11cbf2]
+
+tWPS8Struct.cpp: avoid shadowing a member function...
+
+
+2015-02-27  osnola  <alonso@loria.fr>  [97b899dc36be0073d52ccf44fc0cee4810cb70de]
+
+tWPSContentListener: do not call setDocumentMetaData before calling startDocument...
+
+
+2015-02-26  osnola  <alonso@loria.fr>  [4d64a44b3bae1f61e748f9010fdf81814f0abdee]
+
+tAccept to convert Wk1 files which have no cells in their main sheet + update some "README" files...
+
+
+2015-02-26  osnola  <alonso@loria.fr>  [a3f4a168c178bd0e0535deeb8ecf8deb38aea195]
+
+tLotus Wk3: begin to retrieve color, border's properties of cells   + modify code to also convert Lotus Wk files with signature     00001a000[0-2]10 in release mode...
+
+
+2015-02-24  osnola  <alonso@loria.fr>  [74a98367806d0b3de7729240246cc8c75053b93f]
+
+tLotus Wk3...: begin to retrieve the cell's formating and horizontal alignement...
+
+
+2015-02-24  osnola  <alonso@loria.fr>  [5f37ad215f0cfa0b5688718d5e2d3144ee5b00c7]
+
+tLotus Wk3...: begin to parse the font,format,cell's zones, still not used...
+
+
+2015-02-23  osnola  <alonso@loria.fr>  [3509c931b256ffd4547e2e03a45be7ed65780c8f]
+
+tlibwps_tools_win: add two Apple encodings: MacRoman and MacSymbol Lotus Wk3..: begin to parse the row formats' zone...
+
+
+2015-02-22  osnola  <alonso@loria.fr>  [5e8ad302588892d69f357d158f0ddf154b58ca85]
+
+tWPSFont: add delta letter-spacing. Lotus Wk3 ...: parse and reconstruct embedded textboxes.
+
+
+2015-02-22  osnola  <alonso@loria.fr>  [746f925b3a38e31ae52bbb7b8c9ce3b31afa857d]
+
+tLotus WKS3...: add code to send picture and to send shape with "correct" graphic style...
+
+
+2015-02-21  osnola  <alonso@loria.fr>  [a8c55963c0e5bab10792065b01c8e9ee38576fe9]
+
+tWKSContentListener: use WPSGraphicStyle to insert picture, shape, ... Lotus parser: create a class to read/store the different styles, ...
+
+
+2015-02-21  osnola  <alonso@loria.fr>  [917820fbfb5279bd021f5be832637c26b9dad915]
+
+tall: add a class to store the graphic style (inspired from libmwaw)    + update the WPSGraphicShape header ( to correspond to libwps's headers)
+
+
+2015-02-21  osnola  <alonso@loria.fr>  [7105aab8117c3236aba01e1bdbe4d226efa5e653]
+
+tall: add a class to store color + modify the code to use it...
+
+
+2015-02-21  osnola  <alonso@loria.fr>  [6f64f7c72dfd5200509f5602deadb76be20d9475]
+
+tall: update the WPSBorder class to create more complex borders, Lotus WK3...: begin to reconstruct the embedded shapes (without taking in account their styles)
+
+
+2015-02-20  osnola  <alonso@loria.fr>  [8cd606c21a21fc1509bfd4d25f58b1f52dfee383]
+
+tWKSContentListener: add functions to send pictures or graphic shapes...
+
+
+2015-02-19  osnola  <alonso@loria.fr>  [c6970f9d9f7da5f523717f23bc48ad88763d363c]
+
+tAdd a class to store basic shape: WPSGraphicShape + Lotus WK3...: move graphic functions in LotusGraph.{h,cpp} + continue to parse the 0x1b opcode's zone...
+
+
+2015-02-19  osnola  <alonso@loria.fr>  [d242ca80eb95258d119540e132bb15ebc671d55a]
+
+tLotus WK3... : begin the parse the different 0x1b zones + add a graph parser to store graphic data, to be continued...
+
+
+2015-02-17  osnola  <alonso@loria.fr>  [a8c17e9ed9cf56f60581664f968e4f88941410f9]
+
+tLotus WK1: correct the signature to recognize WK1 files + parse the hidden columns zone...
+
+
+2015-02-17  osnola  <alonso@loria.fr>  [87b38d3598e413afb5ddc1174d5728d514638d1c]
+
+tLotus Wk3..: add code to create spreadsheets ( from parsed data ) in debug mode, to be continued...
+
+
+2015-02-16  osnola  <alonso@loria.fr>  [0032a6951d837ef4b968fafb7090293fb3b615cd]
+
+tLotus WK3...: oops, commit some forgotten modifications
+
+
+2015-02-16  osnola  <alonso@loria.fr>  [9209c95f00cf15f43b95eff297b94928aecaa388]
+
+tLotus WK3..: continue parsing the main spreadsheet's zones + begin to store read data in internal structures, to be continued...
+
+
+2015-02-13  osnola  <alonso@loria.fr>  [fe1768cf0bd4d552246bc7127e31b2f275167fde]
+
+tMsWorks WKS: accept to create output even if the parsing stops (if we have read some cells content) + Lotus WK3..: add first files and functions to parse them, to be continued, ... + general: move functions which read double in libwps_internal.
+
+
+2015-02-07  osnola  <alonso@loria.fr>  [96efa4f349339e9bb5d87e2f0787c9271281891f]
+
+tWKS parser: uses the user character set encoding as default (if given) + correct some compiler warnings in DEBUG mode...
+
+
+2015-02-06  osnola  <alonso@loria.fr>  [77272d2f2da7da271a39461b6b4578f2962a5c96]
+
+tModify the API to allow asking the document password + begin to add support for external set encoding in WPS4Parser...
+
+
+2015-02-04  osnola  <alonso@loria.fr>  [7c5329192bec995beb714441efe63745b7fd98bc]
+
+tModify the API's interface to allow asking for character set encoding when converting DOS files, to be continued.
+
+
+2015-02-02  David Tardon  <dtardon@redhat.com>  [17dc85d205ce6496465f7f8722a1def57a06d586]
+
+tremove bashism
+
+
+2014-12-30  David Tardon  <dtardon@redhat.com>  [be8d0814aa9e39705c10aee485dc304cee45ed81]
+
+tprepare for a release of 0.3.1
+
+
+2014-12-25  David Tardon  <dtardon@redhat.com>  [64b28a29dc62cc0b4812d8addf653e8e18069c6d]
+
+tafl: avoid ouf-of-bounds access to std::vector
+
+
+2014-12-15  osnola  <alonso@loria.fr>  [41dfedf3d25025fe1dc91e7a01d83a54d3259476]
+
+tRetrieve LICS encoding flag and use it to convert characters...
+
+
+2014-12-05  osnola  <alonso@loria.fr>  [54a904f5144993d8a2e88aeebe11394053ac62d6]
+
+tSpreadsheet: implemente TERM and CTERM functions
+
+
+2014-11-24  David Tardon  <dtardon@redhat.com>  [a3425ec7546bb6a77b956de696dbfca77d502603]
+
+tadd compile script to .gitignore
+
+
+2014-11-24  David Tardon  <dtardon@redhat.com>  [b75eec532fc326f6157cb18730f1dcf43d01708f]
+
+tonly export public symbols
+
+
+2014-11-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [336dc4b6ce8f68ef0e8022c2808a5255a3f10216]
+
+tFix parallel build
+
+
+2014-09-24  osnola  <alonso@loria.fr>  [3d23daeee72c08b2101f7fceea802be6cfcd797c]
+
+tFix another coverity's message...
+
+
+2014-09-24  osnola  <alonso@loria.fr>  [066b5b5943ec24fbe16b326d68b2617036621152]
+
+tCorrect some coverity's errors...
+
+
+2014-09-24  osnola  <alonso@loria.fr>  [d8e5e266abf26a4e6c1dcfe8c325785d540d4c24]
+
+tbasic merge
+
+
+2014-09-24  Caolan McNamara  <caolanm@redhat.com>  [aaf3b5805385b9e8a50d3b9857c42752f5581154]
+
+tCorrect a debug message...
+
+
+2014-07-29  David Tardon  <dtardon@redhat.com>  [9426655da9ed8d9da9a081b1e1bb533cae8f4b92]
+
+tcheck arguments
+
+
+2014-07-29  osnola  <alonso@loria.fr>  [c93db5901c4d29ed241a7e92960972d510866409]
+
+tTry to make Clang/XCode analyzer happier...
+
+
+2014-06-04  David Tardon  <dtardon@redhat.com>  [e81b719f28608640a464149f8ce744f1c939b98d]
+
+tcoverity#1019360 missing break in switch
+
+
+2014-06-04  David Tardon  <dtardon@redhat.com>  [fbc1176cb2635dcaa25fb85b300cc85126e47f00]
+
+tcoverity#1165325 missing break in switch
+
+
+2014-06-04  David Tardon  <dtardon@redhat.com>  [cf7ae6b7ac7f75565fea330fd19025aaa4bfa136]
+
+tcoverity#1165326 missing break in switch
+
+
+2014-06-04  David Tardon  <dtardon@redhat.com>  [fe8f37b70fa1fbb0652c285f506ebf1cdebfa3f3]
+
+tcoverity#1165327 missing break in switch
+
+
+2014-06-04  David Tardon  <dtardon@redhat.com>  [86524613dbbc455844ae7029d2a5e9ebcd6072be]
+
+tcoverity#1165329 missing break in switch
+
+
+2014-06-01  osnola  <alonso@loria.fr>  [6775752bef285a4ac86e02942bba8500df5ce4fc]
+
+tWks/wdb parser: correct the float reading in a special case...
+
+
+2014-05-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ddbf72f45713a5a7d8474f3ebcd25486ebacf144]
+
+tThe library strictly speaking does not need the stream implementations
+
+
+2014-05-23  David Tardon  <dtardon@redhat.com>  [bb3b8941449ac6ec35aee5da6036d2310c325291]
+
+tprepare for a new release
+
+
+2014-04-27  osnola  <alonso@loria.fr>  [700879f3182445fdf732d29ffe9030a79829e0d5]
+
+tdatabase: begin to convert the first WDB document in NDEBUG mode...
+
+
+2014-04-25  osnola  <alonso@loria.fr>  [9befa8249d8a9d217ba3e1afffedb4bbc5e6352f]
+
+tspreadsheet/database: improve the parsing: try to parse and name more zones...
+
+
+2014-04-22  osnola  <alonso@loria.fr>  [36e03651ea9a1b04d26569b21851a4dfa4d38f0e]
+
+tspreadsheet/database: improve the parsing of the field name's zone + add comments to indicate which zones are left unparsed...
+
+
+2014-04-22  osnola  <alonso@loria.fr>  [6572e4f036554eb82c8fd79fd2649b89f680464f]
+
+tbasic merge...
+
+
+2014-04-21  osnola  <alonso@loria.fr>  [53f416b675c431533351ff7eed769a3a9479d8ec]
+
+twks2*: accept also to convert WDB files...
+
+
+2014-04-21  osnola  <alonso@loria.fr>  [bca221b17e98c43db0c46115d746f7182ca07910]
+
+tDatabase: modify the WKS to also accept to read some WDB files, the two formats seem very similar...
+
+
+2014-04-19  osnola  <alonso@loria.fr>  [969d9be9a4ab680c70eab5100fb55c822bc90121]
+
+tMinor corrections: mainly comments...
+
+
+2014-04-18  osnola  <alonso@loria.fr>  [2716bd8d881c5db842eefb86ee46ec3ec12d9a2f]
+
+tWPS parser: try to avoid detecting database files as text document + rewrite a little the v1-v4 detection's functions...
+
+
+2014-02-10  dcb  <dcb314@users.sf.net>  [b186c00bbaa2e85f398874fa8b22f6e9a639a42f]
+
+tCorrect a cppcheck warning + optimize a little the code...
+
+
+2014-02-09  osnola  <alonso@loria.fr>  [afe59f3d693ffcffea627336c9a6d5a2690c1329]
+
+thelp2man: make the help's message compatible with help2man, ie. with help2man --help-option=-h --version-option=-v --no-discard-stderr
+
+
+2014-02-04  osnola  <alonso@loria.fr>  [2ede1ddf2c8e1d5c53a051118d1922eacdd63847]
+
+tMerge branch '0.3.0' with master
+
+tConflicts:
+t	astyle.options
+t	src/conv/html/HtmlDocumentGenerator.cpp
+t	src/conv/html/wps2html_internal.h
+t	src/conv/raw/RawDocumentGenerator.cpp
+t	src/conv/raw/RawDocumentGenerator.h
+t	src/conv/text/TextDocumentGenerator.cpp
+t	src/lib/WPS4.cpp
+t	src/lib/WPS8.cpp
+t	src/lib/WPS8Text.cpp
+t	src/lib/WPSCell.cpp
+t	src/lib/WPSContentListener.cpp
+t	src/lib/WPSContentListener.h
+t	src/lib/WPSOLEStream.cpp
+t	src/lib/WPSOLEStream.h
+t	src/lib/WPSPageSpan.cpp
+t	src/lib/WPSTextParser.h
+
+2014-02-04  osnola  <alonso@loria.fr>  [e1682574765fed5766773a28d137ff6aec150466]
+
+tWKS parser: define the cell character properties in number/... cells.
+
+
+2013-12-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d1fcde03803dc035902206c0d4fc36d60667696d]
+
+tPutting libwps public header to libwps namespace
+
+
+2013-12-18  osnola  <alonso@loria.fr>  [6905fced30943855b8b5262324977a0b3a44de30]
+
+tUse the new RVNGTextInterface...
+
+
+2013-12-17  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [70a25f72d72772dfad8f373369c3061837d36d30]
+
+tFixing Windows x64 build
+
+
+2013-12-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [286fe4e08137dbf6e10a700461644a6bfbe59c25]
+
+tFix Windows build
+
+
+2013-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dda9b6c25df743a2dfc0d878776ce40ac212c259]
+
+tFix compilation + make startDocument the first callback
+
+
+2013-12-12  osnola  <alonso@loria.fr>  [d7a49befe274816ad4cfe6be99ad496563a7b251]
+
+tUse the new startDocument interface...
+
+
+2013-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dac85e643f06d0c51d29eb5f532514208fbe965d]
+
+tRe-astyle
+
+
+2013-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [27be097d9b115975251e0524ef469c541112ea8f]
+
+tAllow equal identing of functions
+
+
+2013-12-11  osnola  <alonso@loria.fr>  [61656f26f34f79e420d59b6d0caf8902b78a4bd7]
+
+tUse librevenge:list-id (instead of librevenge:id) to pass the list id + remove an unused variable...
+
+
+2013-12-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6982d65b358dd906ddd89afb8bd52eae25a3be96]
+
+tSince we are breaking API/ABI, why not to correct this misspelling
+
+
+2013-12-09  David Tardon  <dtardon@redhat.com>  [00ce31ea56500e872ea62c03bf44969a943a1464]
+
+tmake this clerner: use the var. consistently
+
+
+2013-12-09  David Tardon  <dtardon@redhat.com>  [f0f5edae9e5689b5a951b751fea2554b99754765]
+
+tdocument intentional fallthrough in switches
+
+
+2013-11-30  David Tardon  <dtardon@redhat.com>  [8b33afb225da91d2a88889948cfca7597f0e20cc]
+
+tadd options file for astyle
+
+t(cherry picked from commit ffd8e3da4e2fcbd992d804ab15f574e9bb2a07ac)
+tSigned-off-by: osnola <alonso@loria.fr>
+
+2013-11-30  David Tardon  <dtardon@redhat.com>  [710514dfdfc922488b7306fb9607235f491f82a1]
+
+tadd myself to CREDITS
+
+t(cherry picked from commit 33055daadab6b9ca2b3d98366a7aae25fd5482a7)
+tSigned-off-by: osnola <alonso@loria.fr>
+
+2013-11-28  David Tardon  <dtardon@redhat.com>  [33055daadab6b9ca2b3d98366a7aae25fd5482a7]
+
+tadd myself to CREDITS
+
+
+2013-11-28  David Tardon  <dtardon@redhat.com>  [796aeb34abb192f826c6cd4987c03ec25b3eef4b]
+
+tastyle -A1 -HU -k3 -y -n -t -r \*.h \*.cpp
+
+
+2013-11-28  David Tardon  <dtardon@redhat.com>  [ffd8e3da4e2fcbd992d804ab15f574e9bb2a07ac]
+
+tadd options file for astyle
+
+
+2013-11-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [eea90c726a7c24eb37fbbdf2f68f0532f55945b9]
+
+tshadowing?
+
+
+2013-11-27  osnola  <alonso@loria.fr>  [bed3c62cabcc900a38caa1b204d1630a2d2ae788]
+
+tminor corrections concerning insertField...
+
+
+2013-11-26  osnola  <alonso@loria.fr>  [6fc70bb9e6adde2e900f0bb23eb4655da0fe4b88]
+
+tAdd pageSpan management in WKSContentListener...
+
+
+2013-11-26  osnola  <alonso@loria.fr>  [268b375241b0712338768baccceb64aa8595a406]
+
+tAdd a text generator for WKS + minor modifications...
+
+
+2013-11-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [12de9d25189a09eeb9b210c3f133ec6760901f7c]
+
+tastyle -HU -A1 -k3 -y -n -t -r \*.cpp \*.h
+
+
+2013-11-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [cc09490674faf04df6686809d9c856ba4dda0f0c]
+
+tfix distcheck errors
+
+
+2013-11-25  osnola  <alonso@loria.fr>  [207a6043c7d44f2ebc86c1344863245a578909e4]
+
+tAdd a CSV generator...
+
+
+2013-11-25  osnola  <alonso@loria.fr>  [2abd3d6c66bf098aee1a1879ab31ac6c35cb0edb]
+
+tastyle -HU -b -k3 -y -n -t -r \*.h \*.cpp + minor modifications
+
+
+2013-11-24  osnola  <alonso@loria.fr>  [58a42fbc81aebfec62de18f9e1d766190f8de5b5]
+
+tWKS parser: try to better retrieve the numbering style in a DOS file + recognize more functions in a formula + astyle's modifications...
+
+
+2013-11-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9ec549d9de32d005f67bd3d354a9c8573802b252]
+
+tastyle with newest astyle version
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d774a51266ef67cd9fa0a6d9ad76c6d37ed860dc]
+
+topenTable: columns -> librevenge:table-columns
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6700b329eac359c8cf24bdebf8a9e2a6f7e9fa2c]
+
+tinsertField: type -> librevenge:field-type
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3ac1c4a2acd57e448111c422a0e3f69b31f88055]
+
+tFolding in the section columns
+
+
+2013-11-22  osnola  <alonso@loria.fr>  [4967a4fc0f1b88aed783e3463c0008aff5356eaa]
+
+tAdd some new WKS formula function's names + try to recognize WKS v1 files + dump some RVNGPropertyListVector...
+
+
+2013-11-21  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8ffab26ed5212c6971b96905f07d7290c809c724]
+
+tFold tabStops into the propList
+
+
+2013-11-21  osnola  <alonso@loria.fr>  [45a2efa23e4d0c072aecbcb6d63b58d47eaddcd2]
+
+tTry to improve the formula parsing: recognize text and new function's names + add some function's signatures...
+
+
+2013-11-20  osnola  <alonso@loria.fr>  [23a7ddc7d09fffb33c0718bff741328b409febee]
+
+tWKS parser: check the numbering formats...
+
+
+2013-11-20  osnola  <alonso@loria.fr>  [45a4087161958b7310e6fe90f59791a220633a94]
+
+tTry to retrieve the cells' background color and the cells' border +   begin to check the numbering formats...
+
+
+2013-11-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [652fc10b569332ccbe8ae4953e1f138420bcf558]
+
+tMisc warning fixes
+
+
+2013-11-18  osnola  <alonso@loria.fr>  [265778a5ad8d064ddc3c026943f6e9a503e47894]
+
+tCorrect a doxygen comment...
+
+
+2013-11-18  osnola  <alonso@loria.fr>  [88e6489cbfb3fee537b40040c39999d8a2f630c4]
+
+tTry to add a wks parser...
+
+
+2013-11-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6d3209b672d07307d207a1f7b23f8ffa9b21d913]
+
+tAdapt to API change in librevenge
+
+
+2013-11-11  osnola  <alonso@loria.fr>  [dbea2121ce49bf2ca8b2025f03fd24e89e0fc530]
+
+tTry to add some units to RVNGPropertyList::insert and to protect some string fields, ...
+
+
+2013-11-09  osnola  <alonso@loria.fr>  [146278ecd31ff1a55b1c4bd68d1cc7ee322aeed2]
+
+tUpdate html/text generators to use the new interface...
+
+
+2013-11-07  osnola  <alonso@loria.fr>  [c4997d0a13d2a44d1556a390308247dfa7a2eedf]
+
+tUse correct orthograph for librevenge:mime-type...
+
+
+2013-11-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1a6d88f03efe61b22fc8a9349ba47d0f94b0bd24]
+
+tRight namespace for the properties
+
+
+2013-11-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8442be5a57052551b616f2180384b8cbc95add91]
+
+tRemove stray bogus forward declarations
+
+
+2013-11-06  osnola  <alonso@loria.fr>  [2837aadf759acbb0ca7659bf15fa668d3110c53a]
+
+tUse librevenge-generators to create wps2html, wps2raw, wps2text...
+
+
+2013-11-05  osnola  <alonso@loria.fr>  [a452329ad8f3e84e5f05eadc9a14f67839adb86b]
+
+tAdd some librevenge:: namespace + some corrections to make libwps pass the regression tests with wps2raw...
+
+
+2013-11-04  osnola  <alonso@loria.fr>  [e90469dca4647192cf29e9369086770a39b0e194]
+
+tUse librevenge subStream functions to parse the OLE files...
+
+
+2013-11-03  osnola  <alonso@loria.fr>  [ce2cd9303c32ea2b61fe15b8ee46819dd5ccc353]
+
+tUse the new librevenge-stream interface...
+
+
+2013-11-02  osnola  <alonso@loria.fr>  [18a63366fff8d4979c29385adb2da56ddc71343f]
+
+tMake libwps depend on librevenge...
+
+
+2013-10-23  David Tardon  <dtardon@redhat.com>  [3b3d8222e128440fa5b3889abfaa136f51020833]
+
+tcoverity: add missing break
+
+
+2013-10-23  osnola  <alonso@loria.fr>  [e56d453d0bacda25f2ccac05f81df25c58c9ecc7]
+
+tUse thread-safe localtime's function...
+
+
+2013-08-07  laurent alonso  <alonso@saturne.loria.fr>  [7e30faabf4ae36a2d3bc37e373dfb14525fe1a6e]
+
+tcorrect some clang -m32 warnings...
+
+
+2013-08-06  laurent alonso  <alonso@saturne.loria.fr>  [dce5553c77dfa9158ae56f0ed043b52795f70ede]
+
+tRetrieve the OEM document type + add new encodings and functions to use it   ( when we will know how to do that )
+
+
+2013-08-05  laurent alonso  <alonso@saturne.loria.fr>  [113ece60c2c8e2841773b5a0c28f1048a3d9012e]
+
+tmake WPSParagraph independent of WPSContentListener.
+
+
+2013-08-05  laurent alonso  <alonso@saturne.loria.fr>  [7534414a2fbb08bb5bf611a4ec892a71cc03c038]
+
+tbegin to make WPSParagraph more independent: now WPSContentListener stores a WPSParagraph and calls it to set paragraph's properties, to be continued...
+
+
+2013-08-05  laurent alonso  <alonso@saturne.loria.fr>  [d07ce66c67e339c98b5622b6cf1e680bf36e18be]
+
+tContinue to remove unused code in WPSContentListener...
+
+
+2013-08-05  laurent alonso  <alonso@saturne.loria.fr>  [46648dd1db61a21d1a5df2ff8e7e3e22d0cde22b]
+
+tMake WPSFont more independent + begin to clean unused part of WPSContentListener, to be continued...
+
+
+2013-08-04  laurent alonso  <alonso@saturne.loria.fr>  [a91b6ffc4596a1ea4eac43e4e1e4bfce3bd2d270]
+
+tCreate a new file for storing the WPSFont class...
+
+
+2013-08-04  laurent alonso  <alonso@saturne.loria.fr>  [a8bb21e1988d250a7be3a4a7b367873d1ad2f23c]
+
+tUpdate wps2html to keep it up-to-date with the libmwaw version...
+
+
+2013-08-04  laurent alonso  <alonso@saturne.loria.fr>  [b0b027d37f4d8c2f7838f6007c9ed27b0f0947d3]
+
+tUse WPX_SEEK_END to optimize the reading of some blocks...
+
+
+2013-08-03  laurent alonso  <alonso@saturne.loria.fr>  [7ddd6e03754e73ebf8d43ffaf1c58ca0a2cd4aa4]
+
+tUpdate WPSOLEStream to be up-to-date with the libwpd/libmwaw versions.
+
+
+2013-08-03  laurent alonso  <alonso@saturne.loria.fr>  [eb46a3d663205a48d70266049906ac4614f42cae]
+
+tContinue to suppress cppcheck warnings...
+
+
+2013-08-02  laurent alonso  <alonso@saturne.loria.fr>  [5dd0ea203b1473f4a3020cc143679feb0b024e40]
+
+tBegin to remove some cppcheck warnings, to be continued...
+
+
+2013-08-02  laurent alonso  <alonso@saturne.loria.fr>  [4bb973d5a60ded14c03c1e4d51e587f1790af45b]
+
+tTry to detect not western encoding in Windows 2.0 files
+
+
+2013-07-26  David Tardon  <dtardon@redhat.com>  [b377dff5da8bc944f98c123d1dfac2658bf3a458]
+
+tdrop unused private attribute
+
+
+2013-06-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3f977e868f5cbab352a2bd4a95cd5d8538453df8]
+
+tAdapting doxygen to the new layout
+
+
+2013-05-30  David Tardon  <dtardon@redhat.com>  [1b6ca4bfe45b278134411a42c8db3427372d37ad]
+
+ttypedef 'Pict' locally defined but not used
+
+
+2013-05-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9408dd6a5d03e82bc91d5cbc7a22fa25e811c05f]
+
+tBump version
+
+
+2013-05-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [179c3b0afed114a647f2cbf74d9d62dffba93aaf]
+
+tTrying to make Michael Stahl happy over and over again
+
+
+2013-05-12  David Tardon  <dtardon@redhat.com>  [c7823f3e13d255d884fcddb2e0b9b457d1418380]
+
+tastyle
+
+
+2013-05-12  David Tardon  <dtardon@redhat.com>  [23599d8ebe80a0673dfa7096595444141b4d1faa]
+
+tavoid out-of-bounds access to a vector
+
+
+2013-05-12  David Tardon  <dtardon@redhat.com>  [509ef678f94bb4895a3e721e41329ea46f8d02d8]
+
+tavoid crash reading invalid OLE stream
+
+
+2013-05-07  David Tardon  <dtardon@redhat.com>  [3df02bbe5c43086356e22fb29f5252e092a2dacc]
+
+tcoverity: avoid use of uninitialized variable
+
+
+2013-05-07  David Tardon  <dtardon@redhat.com>  [242eb2648a3684f3afb6e39f81945dcb9fe3e976]
+
+tcoverity: setting of formatting base is permanent
+
+tThat is probably not what is wanted.
+
+2013-05-07  David Tardon  <dtardon@redhat.com>  [9a5503af11749de5706788d77494cdb2c416e776]
+
+tcoverity: avoid implicit sign extension
+
+
+2013-05-07  David Tardon  <dtardon@redhat.com>  [63f9993d47d5903d6375c628f4da231ffde80a4d]
+
+tcoverity: the iterator might be past end
+
+
+2013-05-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [320aaf4c2463db537dc883f7c143adb4f74cddf2]
+
+tAstyle action
+
+
+2013-04-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [952780def61d281c8639ba106dc169e07e09e220]
+
+tSome sane defaults for the build
+
+
+2013-04-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [049f042972b22e210a3ff6e7c49f8ab0d4a15ad6]
+
+tVarious build fixes
+
+
+2013-04-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [12f585d6806e3e0003fe69df80d9178eadaae089]
+
+tBump version
+
+
+2013-04-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f838e510a6622a47772cd83e9a4310d9c5d28845]
+
+tBy agreement of all contributors, dual-licensing under MPL2+ and LGPL2.1+
+
+tConflicts:
+t	src/lib/WPS4Graph.h
+t	src/lib/WPS8Graph.h
+t	src/lib/WPSOLEStream.h
+
+2013-03-15  osnola  <osnola@users.sourceforge.net>  [04c0de205c21793cd44eeafe1682caf9dd1be241]
+
+tAdd some minor safety checks...
+
+
+2013-01-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [83d592380707c44afc034b199044c0b7c0641b05]
+
+tFix build with newer autotools
+
+
+2013-01-07  Michael Stahl  <mstahl@redhat.com>  [a597771ea55e21feba88674d868f2d748bcad750]
+
+tMiscellaneous warning fixes
+
+tSigned-off-by: Fridrich Štrba <fridrich.strba@bluewin.ch>
+
+2012-11-15  osnola  <osnola@users.sourceforge.net>  [b7c1b6aa78d0269efdeab39ec48bf67a516b5abb]
+
+tMerge branch 'master' of ssh://osnola@libwps.git.sourceforge.net/gitroot/libwps/libwps
+
+
+2012-11-15  osnola  <osnola@users.sourceforge.net>  [d64ebec0d1690e7035cef66532d4511dd8cac1d6]
+
+tSmall modification to generate dotted and dashed borders.
+
+
+2012-10-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f255143a5c4bad7d1fcbd15acb999fdbec2bef17]
+
+tlibwps 0.2.x also for windows build
+
+
+2012-10-03  osnola  <osnola@users.sourceforge.net>  [da5392b84af1414ae5d234831f980b79b468c392]
+
+ttwo minor corrections.
+
+
+2012-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7b7ec9e7a0143af1da148a5f2ea3a487f6c89862]
+
+tInclude the main libwpd/libwpd.h and libwpd-stream/libwpd-stream.h headers
+
+
+2012-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dd1663f1b5d555005e2d5daeb19ff592d048de4f]
+
+tAdd Visual Studio 2010 project files
+
+
+2012-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e3e19a4eb9f115c32c69fa10ad198f576e8f8918]
+
+tmissing include
+
+
+2012-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [29fd7f3d3220c5f650520fb2a29475d166a1b718]
+
+tAdd VS2008 projects + fix windows build
+
+
+2012-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ed6cbad274cfc6ffb53a499d93775da1cf916f78]
+
+tSilence autotools warnings
+
+
+2012-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [364196b52d266fc9b6cee4b9476e0a248fa3cd64]
+
+tModification of the MSVC6 projects
+
+
+2012-09-04  osnola  <osnola@users.sourceforge.net>  [0a1b6907d1694c001a55e6e22f0c56e73c7bdd83]
+
+t+ change the method to read a variable with type=0x12 + add code to recognize the page orientation ( inspired from a patch proposed by Urmas )
+
+
+2012-08-18  osnola  <osnola@users.sourceforge.net>  [20d4f5f3a742ae88579e349b13ccdf59a184fc21]
+
+tRetrieve automatic y-size for a table cell.
+
+
+2012-08-17  osnola  <osnola@users.sourceforge.net>  [a6c41d4139ae49c2104e094975a965ca7313cd94]
+
+tadd code to generate textbox, frame pictures, ...
+
+
+2012-08-16  osnola  <osnola@users.sourceforge.net>  [86169489bb996d761ea581d31defe9ef73660219]
+
+tAdd a class to store the border properties + add code to generate the table...
+
+
+2012-08-13  osnola  <osnola@users.sourceforge.net>  [28ba80abc56442596cee3d8f83ad18630fd19f0f]
+
+tModify the sending of font and paragraph properties to the listener + add code to generate page break...
+
+
+2012-08-13  osnola  <osnola@users.sourceforge.net>  [4dc8d47373797c1a587b04b82ec73b49b271a531]
+
+tSplit WPS8Text in WPS8Text and WPS8TextStyle + change the font's and the paragraph's parsing.
+
+tNote: this is an experimental version, so the code can contain some
+tknown bugs...
+
+2012-08-11  osnola  <osnola@users.sourceforge.net>  [8378cda08d68b29f7fdfba6ce3487042fa464336]
+
+t	Minor modifications to prepare a merge with the main branch...
+
+
+2012-08-10  osnola  <osnola@users.sourceforge.net>  [868964d2114ecbebcee29c06779ae3da0db02ef7]
+
+t	Add header/footer generation + miscellaneous updates.
+
+
+2012-08-09  osnola  <osnola@users.sourceforge.net>  [484b20f3be81505233d5056bee96cfaef9353fde]
+
+tImproves the FTN/EDN parsing code + adds a STSH zone's parsing.
+
+
+2012-08-08  osnola  <osnola@users.sourceforge.net>  [1be8fcfa97d4d1e46e4b854a6e45f9be6d1b7b0f]
+
+tFirst pass to change the data parsers of WPS8Text.cpp...
+
+
+2012-08-06  osnola  <osnola@users.sourceforge.net>  [c287e86fe2b73c01c4d49072b09aa9fb38b1e283]
+
+tAdd a parent class WPSTextParser to define shared functions needed in WPS4Text and WPS8Text and move shared functions of WPS4 and WPS8 in WPSParser.
+
+
+2012-08-05  osnola  <osnola@users.sourceforge.net>  [59154204f725113c31cb05d947a30aa742a73230]
+
+tBegin to add new parser classes for WPS8 files: a main parser, a parser of graph and of table data. WPS8Text is loose connected to these new classes and continues to generate the output.
+
+
+2012-08-02  laurent alonso  <alonso@saturne.loria.fr>  [729ed12df5cc1003c85993c1589fe5c77e985471]
+
+tUse WPS8Struct::FileData to read paragraph and font properties + minor modifications...
+
+
+2012-08-01  laurent alonso  <alonso@saturne.loria.fr>  [9bd0ee001d39ef6f3435511c744e1d21cb367406]
+
+t	Rename WPS8Parser to WPS8Text + some cleaning in WPS8Struct.
+
+
+2012-08-01  laurent alonso  <alonso@saturne.loria.fr>  [17d428ede9e5927a00f4add27617641d7983d294]
+
+t	Creation of an experimental branch to test improvements on WPS8 + add a file to read the structure in a WPS8 file.
+
+
+2012-07-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [906e6ceadca2f08910e40785a8200672a7d40c00]
+
+tAppease automake 1.12
+
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [389e6c80d1901b363f319a81ca1039cbb4fbbb8a]
+
+tcoverity: reset hex format after write
+
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [ad8e597d3b18e4da04489b43c5c25659c53aeacd]
+
+tcoverity: reset hex format after write
+
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [cd111d26ecfda043e14c0e7efa7df5efa54bf972]
+
+tavoid possible overflow in initialization of doc_end
+
+tOkay, I do not really know if this can cause problems in practice or
+tnot. But it surely looks suspicious.
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [9692d9685b50c32a1b4cec2e83bbe43c7f1813b8]
+
+tcoverity: possible end iterator dereference
+
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [4ea7cbbacb7725852506b78bca42f1038e947b4f]
+
+tcoverity: dynamic_cast can return null
+
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [82a1a58cc7a7a310d125afb75cfc68d40ac1a389]
+
+tcoverity: remove superfluous copy ctor
+
+
+2012-07-01  David Tardon  <dtardon@redhat.com>  [88a8863f49ae680260614f8638603c4571782637]
+
+tcoverity: condition is always false
+
+
+2012-06-28  laurent alonso  <alonso@saturne.loria.fr>  [8bc183525e421f82d6202000b2fd348b86e9f8bf]
+
+tAdd safeguards to prevent problem if we can not read a picture in debug mode...
+
+
+2012-06-06  laurent alonso  <alonso@saturne.loria.fr>  [da0a4fddf86496fb0d95f153b6ae56f0451f3523]
+
+t	Make the code compliant to a new set of warnings + add in configure.ac an option to activate these warnings.
+
+
+2012-06-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3d077858622683cba3d70fcfa306323dc8a61143]
+
+tWarn a bit more and have it easier in LO
+
+
+2012-05-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ff4551b5c58e3b1300ca6fa858dc68c75e3b6fc8]
+
+tWarnings about variable shadowing a member of this
+
+
+2012-05-22  laurent alonso  <alonso@saturne.loria.fr>  [2856f04ef0808f0178899e9bd2489b07d1e5d602]
+
+tmany improvements on WPS4:    retrieve more paragraph's properties ( borders, ... ),    retrieve some headers/footers, some pictures, the footnotes and the comments,    try to be a little more robust, ie. try to continue the parsing, even when      we detect some <<small incoherences>> in a document new options in configure.ac:    --disable-weffc to avoid using -Weffc++ ( may be usefull when using an old    gcc or boost version ),    --enable-full-debug for development which stores the result of the WPS4    parsing's by creating some files in the current repository.
+
+
+2012-05-15  Tomas Chvatal  <tchvatal@suse.cz>  [ab0db6c82a39a9a0b6a8fdcb20b1965252ead96c]
+
+tUse shared_ptr everywhere instead of sharedptr
+
+
+2012-05-15  Tomas Chvatal  <tchvatal@suse.cz>  [ec364b926322fdbd00e39e8f69b3222e338b7310]
+
+tAdd safeguards to prevent unwanted values on shared-ptr.
+
+
+2012-05-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [78d38bb2447438eea8a571315e0ceecda5b2b3b9]
+
+tFix libwps debug build.
+
+
+2012-05-14  Tomas Chvatal  <tchvatal@suse.cz>  [9e752348e4e28cbc8baae98987d8264c96ca5367]
+
+tPrint shared ptr are we checking
+
+tAlso reformat those for better readability.
+
+2012-05-14  Tomas Chvatal  <tchvatal@suse.cz>  [41c05a30e15288e464a3143454cd92ce76bbe18a]
+
+tUse posix comparsion.
+
+
+2012-05-14  Tomas Chvatal  <tchvatal@suse.cz>  [1f9ff47157bd6361f942d04c719b2db833d6a51e]
+
+tAdd message about which sharedptr implementation are we using.
+
+
+2012-05-14  laurent alonso  <alonso@saturne.loria.fr>  [137f616820122f9da159130da6293e602b45b794]
+
+tMiscellaneous bugfix to allow compilation with g++-4.0.1 ...
+
+
+2012-05-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [74806db3288107a149a2200efbdcc45367b4ece3]
+
+tBump version so that we don't forget later
+
+
+2012-05-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f366ae301b55e010a39711837d6eba7c03ba05c3]
+
+tLittle fixes
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [e6d6606a8103016c098703f6758a4f18d84ff92e]
+
+t	Check that the sources compile with mingw.
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [c909d1a2c85da717165dff43dc6cd50815011653]
+
+t	Some bugfixes to send correctly the header/footer subdocument.
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [7055a6d680515c43b39f755779e0400ae2b2beec]
+
+t	Correct a small bug.
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [6cf08bb841e5e680d9d4546d11aa75415c70ecf7]
+
+tAvoid calling _openParagraph if a paragraph is already opened, ...
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [030e7d771741c434218a426495b8b4243e6dcb51]
+
+tCorrect an entry in src/lib/makefile.mk
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [edb3653a0473082ea471eebfeb8291e7a0549b51]
+
+t	Save the local state before sending footnote/endnote...
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [1d83eaa65546e90b96127802b4b8e7d87f6c42d6]
+
+t	Add a forgotten file which defines/stores the positions in a page...
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [8a346e9aa811dcaddb3f20efe77081d184366a12]
+
+tFinish rewriting WPSContentListener + add some tests in WPS8.cpp to avoid some invalid memory read.
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [a03796b65382654f007ba5427624594ff3896ca4]
+
+t	Reinsert code for footnote/endnote in WPS8.cpp ( in order to test WPSSubDocument ).
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [03f49e2fea99725da29f944cc804d2cd35dbd67c]
+
+t	Correct two errors + modify the output to accept more general input...
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [0dc426fb24017128afc766042511bfd0f21651e9]
+
+tReplace WPSContentListener by a more generic listener (inspirated from WPXContentListener and *MWAWContentListener ) :   the functions used by WPS4 and WPS8 are rewritten but I need to add   some new functions....
+
+tModifications of the other files to be compatible with WPSContentListener.
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [130a34a83a4f4667313842843a111b0f42770d98]
+
+tBegin normalization of WPSContentListener functions + some simplifications.
+
+
+2012-05-13  laurent alonso  <alonso@saturne.loria.fr>  [9cb3d2b37a73b4576c7468e14638937b30361b15]
+
+tAdd some classes to generate more complex documents (inspirated from libwpd and libmwaw) :   - WPSSubDocument : a basic class to store basic document   - WPSList : store/manage a list ( prelimary version)   - WPSCell/WPSTable : store/manage a table ( prelimary version)   - WPSPageSpan : rewritted to store a subdocument   - libwps_internal : add some template to store Vec2 and Box2        and remove some enum which have been deplaced in another classes,   - other classes only updated to be abble to compile.
+
+
+2012-05-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c8197c2d1aefe821c9c4b2457670d62445fa5661]
+
+tdeclaration of 'length' shadows a member of 'this'
+
+
+2012-05-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [21da7b2fb9ec6e5091cc2ace31f7836498448104]
+
+tBump version for release
+
+
+2012-04-23  laurent alonso  <alonso@saturne.loria.fr>  [18dca1d7c27f1dd453bbbe235099636862f2e5da]
+
+t	Generate code for decimal tab with default decimal point.
+
+
+2012-04-20  osnola  <alonso@loria.fr>  [76be356a9dc4102718a30b0510b64c8ae7e70e04]
+
+tMerging of the branch 'experimental' : + mainly sources cleaning + add some font encodings and increase the list of recognized languages...
+
+tConflicts:
+t	src/lib/WPS.h
+t	src/lib/WPS4.cpp
+t	src/lib/WPS4.h
+t	src/lib/WPS8.cpp
+t	src/lib/WPS8.h
+t	src/lib/WPSContentListener.cpp
+t	src/lib/WPSContentListener.h
+t	src/lib/WPSDocument.cpp
+t	src/lib/WPSFileStructure.h
+t	src/lib/WPSHeader.cpp
+t	src/lib/WPSHeader.h
+t	src/lib/WPSPageSpan.cpp
+t	src/lib/WPSPageSpan.h
+t	src/lib/WPSParser.h
+t	src/lib/libwps_internal.cpp
+t	src/lib/libwps_internal.h
+
+2012-04-20  osnola  <alonso@loria.fr>  [31ffbe22607c97a7cc77119c9a12e1ac3f0c645b]
+
+tSmall details modifications.
+
+
+2012-04-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e9af67d8022e920aedebb82541750d248d59648c]
+
+tSome whitespace change to make this look consistent
+
+
+2012-04-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [682237ce2d7c52f994b85b7f99baa5a41ec49e76]
+
+tBump version
+
+
+2012-04-20  osnola  <alonso@loria.fr>  [2b6c1f3cf7805a6238eae4b7bbb00768e42a7855]
+
+t	End of cleaning + small errors corrections.
+
+
+2012-04-20  laurent alonso  <alonso@saturne.loria.fr>  [7dd4d0dffd31dc7e3ac842bef1228a0e25a4c2bb]
+
+tadd shadow, outline, ... retrieving
+
+
+2012-04-19  osnola  <alonso@loria.fr>  [785d9194f83d3a7702d4fc4df68ce0b814daf177]
+
+tContinue to clean the different files
+
+
+2012-04-18  osnola  <alonso@loria.fr>  [af345425046f1b3284c1bda43bd78bfda048967d]
+
+t- more cleaning ( essentially in WPS4 ) and first test that all continue to work.
+
+
+2012-04-18  laurent alonso  <alonso@saturne.loria.fr>  [94887ae545b30cb773ca8e67b1ffdcb5d40cc94d]
+
+t- minor correction ( send correctly the language and the country ).
+
+
+2012-04-18  laurent alonso  <alonso@saturne.loria.fr>  [db82949c9021c782d9caafca2f12949ec25b16c1]
+
+t- small correction ( to send correctly the font color )
+
+
+2012-04-18  osnola  <alonso@loria.fr>  [d24a9323286493875b7825f751dfff1bdeb1876b]
+
+t- continue to do some cleaning and begin to move the font management in   libwps_tools_win
+
+
+2012-04-17  osnola  <alonso@loria.fr>  [847537d465ded2e7e41fd3d87a5f2976e82820d8]
+
+tCreation of a branch to test the creation of a more powerfull libwps core ( which will accept textboxes, pictures, ... )
+
+t- add emacs headers and vi footers to src/lib files,
+t- make a astyle's pass,
+t- clean a little libwps_internal.h,
+
+tNote: this branch is experimental and may temporary not compiled ok, ...
+
+2012-03-31  osnola  <osnola@sourceforge.net>  [d69e85f4eb1dac6306dc11ff6a7c035422e09108]
+
+tRemove two unused paramter names to compile with -Wall and -Wextra
+
+
+2012-03-29  osnola  <alonso@loria.fr>  [0dbe6b6290a4579c53c76ea349366c63eeb18b35]
+
+tApply Thomas Klausner's patch ( which removes an unused expression )
+
+
+2011-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0937b5c5e9cdffff195b600de5d862e2d67e104e]
+
+tBump version for possible release
+
+
+2011-11-24  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ff41a8fb502018ef8915cfc83618d119babdf0a8]
+
+tUpdate doxygen.cfg file
+
+
+2011-11-04  osnola  <alonso@loria.fr>  [63d6ba635f02512b199e6cf42211e0ee41c3dc81]
+
+tIgnore the unprintable characters which can appear in the text.
+
+
+2011-10-17  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dda3ea2bca90c144624e5399df76dc024445b0dd]
+
+tIgnore some more files
+
+
+2011-10-17  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7d19318fa921d4028a69892d8fc5926ffadef092]
+
+tAdd -Weffc++ option for GCC to avoid producing crappy code :)
+
+
+2011-10-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2e005b85fc149a5a28b565b7b97a6c68d5242bb9]
+
+tFix build inside a new LibreOffice
+
+
+2011-09-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [64bfd6568b4b663f7941ddd982b519b624b44557]
+
+tAdd Laurent to main authors (my apology for this forgetful attitude)
+
+
+2011-09-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [fdf738c382a21d0de972a79e5c87bcba00ab32e5]
+
+tFix distcheck in build/win32
+
+
+2011-09-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [bd6a75fa552865ff4ed5b01663610ef78f8c5b84]
+
+tFixing MSVC build
+
+
+2011-09-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8ba40075d7cc685ed863c6ee58b1459e86dc5af8]
+
+tBump version for a possible release + remove autopackage that nobody uses anyway
+
+
+2011-09-26  osnola  <alonso@loria.fr>  [4aa9d50699ed6b78db8559c4fd4a40eb6a9798d4]
+
+tUpdate of src/conv/ by using libwpd/src/conv as model.
+
+
+2011-09-24  osnola  <alonso@loria.fr>  [761b8797b7659536028e529cb48220daeea12a11]
+
+tSmall changes: - in WPS4.cpp: correction of an uninitialized variable, - in WPS8.cpp: small improvement of the footnote/endnote display, - in WPSContentListener.cpp: check that the lists are closed before closing a section.
+
+
+2011-09-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ed830550194205e230f199efb8ad20b7b8adef89]
+
+tPlant some .gitignore files all around the place
+
+
+2011-09-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [978d3f8b8027fa5eedbd57b869ec4caaab6e07ae]
+
+tGenerate ChangeLog on make dist
+
+
+2011-09-23  Laurent Alonso  <alonso@loria.fr>  [2bbfd5df9b65114641cada17e944237c0823fa9a]
+
+tFix callgraph when footnotes are present
+
+
+2011-09-21  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [47aae03b21b0ac58823a8b2e44e813092ea35bcf]
+
+tcheck that the property remains in the FOD zone (patch Laurent Alonso)
+
+tsvn path=/trunk/libwps/; revision=218
+
+2011-09-21  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5a0a1d55af3ac9892befccee349bdc5edc4cfe9f]
+
+tFix different errors (patch Laurent Alonso)
+
+tsvn path=/trunk/libwps/; revision=217
+
+2011-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [141b07890c49b6a4adf5061092c3f589f3933ae6]
+
+tFix some debug build warnings/errors
+
+tsvn path=/trunk/libwps/; revision=216
+
+2011-09-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [03f641e92bb5aab0e46ef8970dbc37302f2973d2]
+
+tCleanup and rewrite of build system (patch Tomas Chvatal)
+
+tsvn path=/trunk/libwps/; revision=215
+
+2011-09-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c93aa9a7b50191fdf672f8b9404396ba9a36e248]
+
+tFix windows gcc build of libwps inside LibreOffice tree (patch Jan Holesovsky <kendy@suse.cz>)
+
+tsvn path=/trunk/libwps/; revision=214
+
+2011-08-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8f16bca816870d46ab5903bde9d6bd788e4729e1]
+
+tIt seems that cfod 0x54 is legitimate (patch Urmas D. <davian818@gmail.com>)
+
+tsvn path=/trunk/libwps/; revision=213
+
+2011-08-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2aa25c3ff5aa7878d0280664f573ec3a6da5c301]
+
+tUpdate configure.ac to new syntax. Patch of Tomas Chvatal <tchvatal@suse.cz>
+
+tsvn path=/trunk/libwps/; revision=212
+
+2011-08-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [62a9a0ec0c98bfb6224ca28f0725aeb1760dd118]
+
+tRename configure.in to configure.ac Patch of Tomas Chvatal <tchvatal@suse.cz>
+
+tsvn path=/trunk/libwps/; revision=211
+
+2011-08-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0d1373e2d76b6a879f7441d2298ebe243acc3339]
+
+tFix makefile.am's to new syntax. Patch of Tomas Chvatal <tchvatal@suse.cz>
+
+tsvn path=/trunk/libwps/; revision=210
+
+2011-05-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2fe5d90b4e5560911ed15b3601651d01e8e07140]
+
+tFix gcc-4.6 build
+
+tsvn path=/trunk/libwps/; revision=209
+
+2011-05-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0bdb62afd486efea1077566296de810bb6f4e7d4]
+
+tBump version
+
+tsvn path=/trunk/libwps/; revision=207
+
+2011-05-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e67fb229665ac4a1a2405de85ecfb04b45125b9e]
+
+tSilence some warnings
+
+tsvn path=/trunk/libwps/; revision=204
+
+2011-05-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [091849641a1b921545f1a670e3872ad9d0be58ee]
+
+tDon't complicate stuff with bsearch for a table of few entries
+
+tsvn path=/trunk/libwps/; revision=203
+
+2011-05-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [047081954bbb5825797755651eca6788f286d701]
+
+tBump version after release
+
+tsvn path=/trunk/libwps/; revision=202
+
+2011-04-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1e31cd77d4e4991dc06c5212fd1ef9c3ca62d9c2]
+
+tFix some more leaks and invalid reads
+
+tsvn path=/trunk/libwps/; revision=200
+
+2011-04-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7544c4b9dbec7056ce93dde1f2e809f7ff47bed6]
+
+tPrefer to leak then to branch on uninitialized variables
+
+tsvn path=/trunk/libwps/; revision=199
+
+2011-04-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0dd024911450e24d7433c1c788e9ca50c99688c6]
+
+tRemove another memory leak
+
+tsvn path=/trunk/libwps/; revision=198
+
+2011-04-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [44f8f4eee6b13b9399ff51d16166940b4a441905]
+
+tDon't return reference to temporary, pass copy of the string
+
+tsvn path=/trunk/libwps/; revision=197
+
+2011-04-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a3cf91eecf50a6d6962847075f70bd562c51e24c]
+
+tSome features (patch Urmas) made actually compile by Fridrich
+
+tsvn path=/trunk/libwps/; revision=196
+
+2010-11-17  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0301d4fab3c9349a2a77090129a41e2921a1859a]
+
+tFix debug build with some compilers. Patch: David Tardon <dtardon@redhat.com>
+
+tsvn path=/trunk/libwps/; revision=194
+
+2010-11-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8147a25af9a7664275a0530671206fd6308d2ebb]
+
+tlittle whitespace changes + don't install automatically different docs in distdir
+
+tsvn path=/trunk/libwps/; revision=188
+
+2010-11-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [38a76e0b2a9c38e1acd807d612ef2f4e18ede38e]
+
+tAdapt to the new libwpd api including insertField and insertSpace
+
+tsvn path=/trunk/libwps/; revision=186
+
+2010-06-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d03bab1f9f02c581f278f1dd3706272ec92b235a]
+
+tAdapt to changes in libwpd
+
+tsvn path=/trunk/libwps/; revision=184
+
+2010-06-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b48c9691fdf00c75930f71f94ff64fb571adc78c]
+
+tadapting to the recent libwpd api + removing unused methods discovered by callcatcher
+
+tsvn path=/trunk/libwps/; revision=182
+
+2009-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f675771c4dab06de1ff8d9a93afc8af7092055a3]
+
+tAllow building for dos with djgpp toolchain
+
+tsvn path=/trunk/libwps/; revision=181
+
+2008-12-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9799030d892214aeb0f4e570df4d5fd5be51827e]
+
+tadapting to the fact that getFloat -> getDouble in WPXProperty class
+
+tsvn path=/trunk/libwps/; revision=177
+
+2008-10-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c225163badb6a8335ba83cec382be06e249bbd33]
+
+tnot wanted to commit this one
+
+tsvn path=/trunk/libwps/; revision=173
+
+2008-10-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b1f910d00ed650c1e6c7baa0d9515fe8d83c5d6c]
+
+tadapting to changes in libwpd
+
+tsvn path=/trunk/libwps/; revision=172
+
+2008-04-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f16b55587ad1169457ce7255efbd27df281c36ab]
+
+tfix some more warnings
+
+tsvn path=/trunk/libwps/; revision=170
+
+2008-04-08  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [00142bfa8fe7f330dbd4eaedb96556a50d78eebe]
+
+tAllow specifying the docdir and don't install documentation as executables (patch Michal Marek mmarek@suse.cz) + gcc 4.3 fixes
+
+tsvn path=/trunk/libwps/; revision=169
+
+2007-12-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [faaa758e358df5cc80ad2298e878e7c7c679c516]
+
+tmore code removal and simplifying
+
+tsvn path=/trunk/libwps/; revision=166
+
+2007-12-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c84bc32c9ed3a9cb35d034ed8ad9fbf4b02ec8bf]
+
+tfix an omission in super/subscript parameter + fix libwps-zip.in to correspond to the fact that we are using in trunk libwpd's stream implementation
+
+tsvn path=/trunk/libwps/; revision=165
+
+2007-12-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6dd1d1c03bee94b7df2314b2994a3dc9f55c626e]
+
+tno need of this function anymore for this one
+
+tsvn path=/trunk/libwps/; revision=159
+
+2007-12-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6656a6da417e3b672de4891a922300e0c3c6849a]
+
+tprevent a signed unsigned warning
+
+tsvn path=/trunk/libwps/; revision=155
+
+2007-11-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b48ee2818a28f317632b18b332e4bbb35a77e7b9]
+
+tmake some sample documents validate against the strict schema
+
+tsvn path=/trunk/libwps/; revision=154
+
+2007-11-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ab6b7cb2133ddfde1ec0084533f51570e0ddb17b]
+
+tstarting to port to odt
+
+tsvn path=/trunk/libwps/; revision=150
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b2762228c3ba80dc83fe378290b4dcf215df12b2]
+
+tand the shrinking is continuing
+
+tsvn path=/trunk/libwps/; revision=149
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6349c3cc7ae95581b19d57b55c15a5a4f237c6aa]
+
+tand even more removals of unused stuff
+
+tsvn path=/trunk/libwps/; revision=148
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [cf0a04a613f88dc971d41ee0d751eefea35db2fb]
+
+tand we are removing more and more
+
+tsvn path=/trunk/libwps/; revision=147
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [98751f7b57b745823125e0adef5c3290d3607ba0]
+
+tmore unused stuff gone
+
+tsvn path=/trunk/libwps/; revision=146
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [37522e39b2cc571ba06739df44a5c6f5f01a2b71]
+
+tremoving unnecessary files
+
+tsvn path=/trunk/libwps/; revision=145
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [53bae9873f040ef7dc71abcbb5803ddc28dac62d]
+
+tfix requires and a small fix for configure
+
+tsvn path=/trunk/libwps/; revision=138
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [66953d91fe86cae44a9cc8827a4ff5d8eb54b692]
+
+tmore svn ignored files
+
+tsvn path=/trunk/libwps/; revision=135
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c7647f4bdacfcfe4325216838385ee794ad94c1f]
+
+tignore the Makefile
+
+tsvn path=/trunk/libwps/; revision=133
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dcfe9b5f68342c7c86d182a3a5b04820c22b6ac1]
+
+tmake distcheck passes well now
+
+tsvn path=/trunk/libwps/; revision=132
+
+2007-11-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [78c3d516815cbbcca9187e5a7b5e916d42e450f2]
+
+tadapting trunk to head libwpd
+
+tsvn path=/trunk/libwps/; revision=131
+
+2007-10-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [079874ac4aeef16d4eb06872950c127774d6b9dc]
+
+tsometimes, libtoolize is called glibtoolize
+
+tsvn path=/libwps/; revision=126
+
+2007-09-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [36978f81bd667977ddf2c8206eba584d25e6af3e]
+
+tfix building with gcc 4.3
+
+tsvn path=/libwps/; revision=124
+
+2007-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3c1bfcd6deb51b45a5fa044da448c3d224618ebd]
+
+tdon't build doxygen docs on win32 unless expressely asked to do so
+
+tsvn path=/libwps/; revision=122
+
+2007-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9497af6f5250e35959aa292823c9bee2cc60e67d]
+
+tbetter solution for the doubleToString from libwps and libwpd conflict is to put it into an anonymous namespace since we need it in one file only
+
+tsvn path=/libwps/; revision=121
+
+2007-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c144dcb7f05024adab57a5dca17fb3cd2df89f73]
+
+tenable completely static wps2foo.exe tools, fix zip packaging for libwps-*.zip win32 binaries, don't break in multiprocessor build because of resource compiler, s/.libs/@WPS_OBJDIR@/,...
+
+tsvn path=/libwps/; revision=120
+
+2007-08-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c92860b8c229beb9600d68b30f408864e29595f3]
+
+tuse unix line endings
+
+tsvn path=/libwps/; revision=119
+
+2007-08-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f76332445006e9162b82eb688ebd2b6c799c24b6]
+
+tsome little tiny fixes to spec file
+
+tsvn path=/libwps/; revision=118
+
+2007-08-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b9265a622ad46d5637068c028b30664ef92ca758]
+
+tbump version in case there is a bugfix release :-)
+
+tsvn path=/libwps/; revision=117
+
+2007-08-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [929537e0089e75fa1b1efb4856d02b90ccb5b01b]
+
+tsome changes to produce nice neat win32 zip packages
+
+tsvn path=/libwps/; revision=116
+
+2007-08-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f9bd6e1fccff992639da08b5478d084c941d133d]
+
+tmake cross-compiling smooth
+
+tsvn path=/libwps/; revision=114
+
+2007-08-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [46afcee50e0341b24854800eb10bdefe628ab35b]
+
+tdoxygen is not a cross tool
+
+tsvn path=/libwps/; revision=113
+
+2007-06-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [47cb3cd75c51883f3a6616806f7b84af72d33d04]
+
+tsmall fixes to build well with Sun Studio on Solaris and also to make more C++ std conformant code
+
+tsvn path=/libwps/; revision=112
+
+2007-06-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f5861341d0a4c6d69a64df46117c2e0c7854e92e]
+
+toops
+
+tsvn path=/libwps/; revision=111
+
+2007-06-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [19a218e27590b90119b4fd4b50c25fd33354a8ec]
+
+tconsider first the library we are actually building instead of a library that might be installed somewhere
+
+tsvn path=/libwps/; revision=110
+
+2007-06-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3f2cec4ddfbb73544211b20f8cd2abfbdfa483c5]
+
+tfinaly, I should get this one right
+
+tsvn path=/libwps/; revision=109
+
+2007-06-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b0247d0224e5fc2456f01fa4d83a159b8a9a29fe]
+
+tet de trois...
+
+tsvn path=/libwps/; revision=108
+
+2007-06-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [bc242122d4c80c49fc9d68b2d29d286e93a7c694]
+
+tmake the generated output format of floats locale independent
+
+tsvn path=/libwps/; revision=107
+
+2007-06-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d46c4c4bc29e4f710e4fb86e8cd3f7edccae067d]
+
+tvarious fixes
+
+tsvn path=/libwps/; revision=106
+
+2007-06-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [38b3e1060c7440a4ae41c15b5f420ff01ec921d8]
+
+tadapt pc files to reality
+
+tsvn path=/libwps/; revision=105
+
+2007-05-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b63eba68ae8fb2f6d8fa2977f29033d99a1bc606]
+
+tpackaging all the msvc++ project files
+
+tsvn path=/libwps/; revision=104
+
+2007-05-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5846ca82b3b8a17de55bafcea85b921505ba2a1a]
+
+tsvn path=/libwps/; revision=103
+
+
+2007-05-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1f2cccf80ef5ae2cb8bcc12bd0f93de6b76c8fc7]
+
+tfixing win32 build of tools
+
+tsvn path=/libwps/; revision=102
+
+2007-05-08  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c885556d25ed20a31fb740d4bd378e8e3b79a2cb]
+
+tand what if they are shorter then 6 chars??? Do not optimize before profiling :-)
+
+tsvn path=/libwps/; revision=101
+
+2007-04-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f242b5f26e379270fdaa61b95ddc50bc5862888b]
+
+tcleanup
+
+tsvn path=/libwps/; revision=100
+
+2007-04-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1298872d0a92c78136af61399ef30152c8f754ef]
+
+tputting belts and braces around the stream class (integers, integers, integers)
+
+tsvn path=/libwps/; revision=99
+
+2007-04-24  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9fe247af712d169f745c235fe3c07db211034590]
+
+tdo not package *.la files
+
+tsvn path=/libwps/; revision=98
+
+2007-04-08  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8a9c80d3ad269d738ddda90bcc9fdf5884f9e28d]
+
+treplace istream::readsome with checked istream::read
+
+tsvn path=/libwps/; revision=97
+
+2007-04-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [931281695796ac5e39777d059f87a5157c18a9da]
+
+tmore valgrind stuff
+
+tsvn path=/libwps/; revision=96
+
+2007-04-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3d8f8c6e126d190727119c1351dff8d3c8c7d42c]
+
+tfixing some memory issues and syncing with the WPXInputStream behaviour
+
+tsvn path=/libwps/; revision=95
+
+2007-04-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5c86f0e312978ddded482fce9fb3e01cb47d3731]
+
+trequire doxygen for doc building + fix library location on certain systems
+
+tsvn path=/libwps/; revision=94
+
+2007-03-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [d0ccb55eda9163f5ab0ab42e7a40ea5146a4a733]
+
+t- Fix for bug #1662864 from Ariya Hidayat
+
+tsvn path=/libwps/; revision=93
+
+2007-02-18  Andrew Ziehm  <ahziem1@mailbolt.com>  [79caa22cb7dfc8ae9b27dafc0b66b1a179a2a8d2]
+
+t- update documentation
+
+tsvn path=/libwps/; revision=92
+
+2007-02-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ef15131ed64a803f080d5dc99bb91ba61463fd2c]
+
+tdo not include libwpd UML
+
+tsvn path=/libwps/; revision=91
+
+2007-01-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [674aa0064595c6a5c100f527d576fbe5b8b05430]
+
+tremoving mention of WordPerfect
+
+tsvn path=/libwps/; revision=90
+
+2007-01-28  Andrew Ziehm  <ahziem1@mailbolt.com>  [9ebe1ba7c08be36996ec11ce76a2d0b96faf23ae]
+
+t- fix font size 0 in some parts of Works 2 DOS document (bug #1625803)
+
+tsvn path=/libwps/; revision=89
+
+2007-01-27  Andrew Ziehm  <ahziem1@mailbolt.com>  [8cf252e8c7e295fd9110c1f80bf52e93146af9df]
+
+t- recognize Fridrich in credits - update copyright
+
+tsvn path=/libwps/; revision=88
+
+2006-12-25  Andrew Ziehm  <ahziem1@mailbolt.com>  [b1ac097387dc583e2f84bdfae6656c706cbf147c]
+
+t- increase max cch
+
+tsvn path=/libwps/; revision=86
+
+2006-12-20  Andrew Ziehm  <ahziem1@mailbolt.com>  [701f456b66b3b01b2bf90fb6801e83ec845ec97c]
+
+t- add some notes and documentation
+
+tsvn path=/libwps/; revision=79
+
+2006-12-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f76a141c100e251fc05cf6be44e87fd76724e357]
+
+ttrying to fix the bug from sf.net tracker
+
+tsvn path=/libwps/; revision=78
+
+2006-12-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [49614e209a01ca126a1ff19928a5b3ae14256d68]
+
+tsome fixes to be able to build libwps inside OOo
+
+tsvn path=/libwps/; revision=77
+
+2006-12-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c243d7f7d9367c20351bebf950cb5cd25612e4e9]
+
+tfix a Makefile.am for the msvc projects
+
+tsvn path=/libwps/; revision=76
+
+2006-12-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4f2d8b1f1b0d65fe437b87e5f46d8ce9f50485b0]
+
+tdo not mention options that are not implemented :-)
+
+tsvn path=/libwps/; revision=75
+
+2006-12-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ab2b908a2b468062f4c9ab06502ca8462aea43cf]
+
+tdo not require to run unit tests when building an rpm
+
+tsvn path=/libwps/; revision=74
+
+2006-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [978ede9874ec390b94f9d6ce2b04bb5175e88abe]
+
+tfixing various win32 build issues
+
+tsvn path=/libwps/; revision=73
+
+2006-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d343d8ff893e0aa5bfd198ee3fe22c06d6e39d36]
+
+tWorks 2 files seem to have CP850 encoding
+
+tsvn path=/libwps/; revision=72
+
+2006-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [bcdf72ca34a2091a67f8d88d0df1fc823339542d]
+
+tsome typo resolution + make the WPS4Parser::appendCP1252 take the already read value
+
+tsvn path=/libwps/; revision=71
+
+2006-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [47211043a70f205c2bb38af0d985e8c9145f0099]
+
+tsome more fixes + update of README + trying to craft MSVC project files
+
+tsvn path=/libwps/; revision=70
+
+2006-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a943dfba0ac61c366482e3a55afc5260a2f60648]
+
+tbinning out iconv dependency + some little tiny fixes
+
+tsvn path=/libwps/; revision=69
+
+2006-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1d8cdd2bfc4805681e303900a0c12a1106f59992]
+
+tmaking WPSInputStream a derived class of WPXInputStream (should make the AbiWord plugin even more simple)
+
+tsvn path=/libwps/; revision=68
+
+2006-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [80e1d869229aff2d577adad94495941583974a8a]
+
+tsome more packaging issues
+
+tsvn path=/libwps/; revision=67
+
+2006-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c36f1d96cf28fa225f60d3aa9cb495198159fc40]
+
+tremove libwps_types.h and use libwpd/libwpd_types.h instead, fix the installation of pkgconfig files
+
+tsvn path=/libwps/; revision=66
+
+2006-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [fa7f66bde9b0ff3069b412fc273c3f0193b7fa83]
+
+textend the unit test to the WPSMemoryStream class
+
+tsvn path=/libwps/; revision=65
+
+2006-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5d13984681d55b2ac6371e0285af98e0f73640d9]
+
+tmake stream implementation to pass the tests and some small fixes of my previous patch
+
+tsvn path=/libwps/; revision=64
+
+2006-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [29efc5e55b28ce14e639723ea5fc5dba15fc3577]
+
+tseparating the stream implementation from the core library
+
+tsvn path=/libwps/; revision=63
+
+2006-12-10  Andrew Ziehm  <ahziem1@mailbolt.com>  [2f3d27700791730519d8f54803cd9ccfd4d0335d]
+
+t- more specific exception handling
+
+tsvn path=/libwps/; revision=62
+
+2006-12-10  Andrew Ziehm  <ahziem1@mailbolt.com>  [d69df36ecf51f8d3920eb8f5fe34895a459a2b14]
+
+t- adapt tests for recent API changes - reorder, comment out failing tests
+
+tsvn path=/libwps/; revision=61
+
+2006-12-10  Andrew Ziehm  <ahziem1@mailbolt.com>  [01548935d090b4c8cec915fd171987d15a517379]
+
+t- remove double semicolon
+
+tsvn path=/libwps/; revision=60
+
+2006-12-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0e5d4fa967026c1b170fc8e986f45c81d6684bd4]
+
+timplement the seek properly + some small changes
+
+tsvn path=/libwps/; revision=59
+
+2006-12-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a97007c1e948488cf2293674f5f947fb3e884c72]
+
+tMake WPSInputStream as close as possible to WPXInputStream
+
+tsvn path=/libwps/; revision=58
+
+2006-12-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d860c2018e5acb54dda63e2ba58727382bbc412a]
+
+tmake the tarball buildable + do not install the test program
+
+tsvn path=/libwps/; revision=57
+
+2006-11-30  Andrew Ziehm  <ahziem1@mailbolt.com>  [c5a9804b245cfaf94a9009eb960ac924090dd0e6]
+
+t- rename libwps-0.8.pc.in to 1 (spotted by Fridrich Strba) - I think we no longer need nor use glib anymore - clarify that we mean MS Works *word processor* documents
+
+tsvn path=/libwps/; revision=56
+
+2006-11-30  Andrew Ziehm  <ahziem1@mailbolt.com>  [29614199fb6a37adb6d831a861be909c53e8e9ea]
+
+t- change WPDResult and WPSConfidence to WPS (mostly verbatim from Fridrich Strba) - remove 2 legacy *WPS() functions
+
+tsvn path=/libwps/; revision=55
+
+2006-11-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4c1d53560de3af599a6bd442a149acdb0caf5114]
+
+toops
+
+tsvn path=/libwps/; revision=54
+
+2006-11-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d906f4f6786ce3aa9ac472a5211cc14916e8915f]
+
+tTrying to put belts and braces around the WPSStreamImplementation
+
+tsvn path=/libwps/; revision=53
+
+2006-11-28  Andrew Ziehm  <ahziem1@mailbolt.com>  [39991cb1c56eaa5a31e47ee14f4ed39ef14507d0]
+
+t- minor clean up, bug fixes, and portability fixes
+
+tsvn path=/libwps/; revision=52
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [606db605b2ebea476868db3b0d5208fd9d26feab]
+
+t- remove accidently-added directories
+
+tsvn path=/libwps/; revision=51
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [ca6b251a06f4ab18747f98cb2967016ef324d1a2]
+
+t- add unit testing with cppunit - fix build system where TODO was removed
+
+tsvn path=/libwps/; revision=50
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [be90cf4569fe88423441c97b5886a89113212f14]
+
+t- remove unused code
+
+tsvn path=/libwps/; revision=49
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [817d79119ae670956f2657f1a7d31a3396a3561d]
+
+t- fix a typo
+
+tsvn path=/libwps/; revision=48
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [3ec22ebd6491727319d5d6bfb2146d4908126cd0]
+
+t- abort configure if iconv.h is not found
+
+tsvn path=/libwps/; revision=47
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [590a7dc36ab9e7bba8c38b49d1530e950735ac76]
+
+t- fix an unused variable warning
+
+tsvn path=/libwps/; revision=46
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [6811e3bca6d55f7d6bbfb010a4145cde2a312a7b]
+
+t- apply patch from Fridrich Strba
+
+tsvn path=/libwps/; revision=45
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [61efb4e702a25cc8d6e824a08a80d48f11997560]
+
+t- sync with libwpd CVS
+
+tsvn path=/libwps/; revision=44
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [dba34e6f1414b30730545c5c3021e73162161e1d]
+
+t- sync with libwpd CVS
+
+tsvn path=/libwps/; revision=43
+
+2006-11-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [74c5a65dfd6a4cd9eb169110278a0bd0a134927d]
+
+t- remove unused code - rename some WPD to WPS (thanks Fridrich Strba) - cleanup based on stricter compiler warnings (suggested by Fridrich) - sync ContentListener with latest libwpd CVS - some fixes based on issues found by Valgrind - be more consistent printing hex numbers - fix two typos in WPSOleStream.cpp
+
+tsvn path=/libwps/; revision=42
+
+2006-11-25  Andrew Ziehm  <ahziem1@mailbolt.com>  [ae6708a4951ba1cc0687743af08667eb238cf98a]
+
+t- minor fixes
+
+tsvn path=/libwps/; revision=41
+
+2006-11-25  Andrew Ziehm  <ahziem1@mailbolt.com>  [92dfbe76a07cff2240f53eb51cc91b1ed3b9a974]
+
+t- only read fonts table in newer versions of Works - be more verbose in exceptions
+
+tsvn path=/libwps/; revision=40
+
+2006-11-25  Andrew Ziehm  <ahziem1@mailbolt.com>  [baebf50d87223cc43273d5d68bc15bffd5ad9cae]
+
+t- copy and paste from libwpg
+
+tsvn path=/libwps/; revision=39
+
+2006-11-25  Andrew Ziehm  <ahziem1@mailbolt.com>  [c2b2b92750d5f35388ae310539436bd55ccab969]
+
+t- add support for MS Works 2 DOS fonts - don't redefine some enums - minor cleanup
+
+tsvn path=/libwps/; revision=38
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [1344bffd80cfd2191dfe7de2ec1f0ab5ce0b50af]
+
+t- add missing Works 2/3 support in parser
+
+tsvn path=/libwps/; revision=37
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [b27da9d2044514c846cf7c4283dafe4bb8d442ff]
+
+t- develop WPSHeader (which before was basically an unused stub)
+
+tsvn path=/libwps/; revision=36
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [16d9b21bd950e145d8bf495530ac49d5196cc61a]
+
+t- minor cleanup
+
+tsvn path=/libwps/; revision=35
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [0fe60f94fb94bab3c6818a7bd1103c7732c6ea43]
+
+t- Rename WPX to WPS.  (Fridrich Strba suggested this and the libgsf->POLE change.)
+
+tsvn path=/libwps/; revision=34
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [cf76f1f257e316871ee4036242f9f5f3cad37628]
+
+t- add three missing files
+
+tsvn path=/libwps/; revision=33
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [fa702575f3b601117cf466421eb9c22cabbd763e]
+
+t- glib is not required - iconv is required
+
+tsvn path=/libwps/; revision=32
+
+2006-11-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [fb6604d65c575b9d247990928e7c0cdaa9c88ffa]
+
+t- Change from libgsf to POLE as found in libwpg svn 10/21/2006
+
+tsvn path=/libwps/; revision=31
+
+2006-10-08  Andrew Ziehm  <ahziem1@mailbolt.com>  [01e9fe210c62cb17e38af458648e2912fe761fb6]
+
+t- Remove more code from libwpd that is not used in libwps
+
+tsvn path=/libwps/; revision=30
+
+2006-10-08  Andrew Ziehm  <ahziem1@mailbolt.com>  [372da168fb139b8fe6e62e1c5070fdc6adc896a6]
+
+t- remove more code from libwpd (WPXTable) that is not needed in libwps
+
+tsvn path=/libwps/; revision=29
+
+2006-10-08  Andrew Ziehm  <ahziem1@mailbolt.com>  [e57f8ed9d379d0ba8e3349ef2fdb2ecfe24f5c9e]
+
+t- Remove more libwpd code not needed in libwps
+
+tsvn path=/libwps/; revision=28
+
+2006-10-03  Andrew Ziehm  <ahziem1@mailbolt.com>  [1fd4ceeea2d623b982cf1117cf4b187fada86de3]
+
+t- many "wpd"->"wps" changes - a few changes to remove remnants of stream package
+
+tsvn path=/libwps/; revision=27
+
+2006-10-02  Andrew Ziehm  <ahziem1@mailbolt.com>  [685c15fba3fd6a04393fb94de12ae64478fcb7a9]
+
+t- remove separate stream package since most WPS documents are MS OLE
+
+tsvn path=/libwps/; revision=26
+
+2006-10-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [cc496902d6c44ed544348ee4cfd8bcedbcb0fa73]
+
+t-Works8: increase cfod again
+
+tsvn path=/libwps/; revision=25
+
+2006-10-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [52ce16788b9f51cb3f874a1b29ad69b86e4afa40]
+
+t-Works 8: add support for character set conversion -Works 8: increase max cch (again)
+
+tsvn path=/libwps/; revision=24
+
+2006-10-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [37b1b04b0a0c051a4361e04469a23637f00d5650]
+
+t-Works4, Works8: fix reading FODs because some were lost
+
+tsvn path=/libwps/; revision=23
+
+2006-10-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [63aaf336c542c197ee1b367107466ad2b6fb2d93]
+
+t- Works4: fix character set conversion
+
+tsvn path=/libwps/; revision=22
+
+2006-10-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [c1f2d916d3073b1cedf349098d38f1596a3e24cc]
+
+t- Works4: make more robust
+
+tsvn path=/libwps/; revision=21
+
+2006-09-30  Andrew Ziehm  <ahziem1@mailbolt.com>  [b85cccee2800a46c8031875668854ba94dbe44cc]
+
+t- Works4: fix page margins
+
+tsvn path=/libwps/; revision=20
+
+2006-09-30  Andrew Ziehm  <ahziem1@mailbolt.com>  [283e712bd81bd67e7a7e6207fe25db073877367c]
+
+t- remove more generated files
+
+tsvn path=/libwps/; revision=19
+
+2006-09-30  Andrew Ziehm  <ahziem1@mailbolt.com>  [c71ea892516203923f1b6ced7ffd64b0632bf889]
+
+t- remove files that are generated by auto tools - remove WPXString which is provided by libwpd - some libwpd->libwps - remove libwpd's TODO, CHANGES - add libwps info to README, CREDITS
+
+tsvn path=/libwps/; revision=18
+
+2006-09-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [157cf4f03c8d130dfbcec633a86e3a667d7e5c1a]
+
+t-Works8: fix bug in reading fonts table
+
+tsvn path=/libwps/; revision=17
+
+2006-09-26  Andrew Ziehm  <ahziem1@mailbolt.com>  [9106594c9bd7a0e7bf2664656065cbf9deda1768]
+
+t- Works4: change character set
+
+tsvn path=/libwps/; revision=16
+
+2006-09-25  Andrew Ziehm  <ahziem1@mailbolt.com>  [9c3a94f6cb21809bf7f1e85e1ad1f8f2f4a3383a]
+
+t- Convert from stand-alone library (still called libwpd) to a new library libwps which is dependent on libwpd.  (Thanks to Fridrich Strba for the idea.)
+
+tsvn path=/libwps/; revision=15
+
+2006-09-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [f8b948d5eb9fdd69e1dc983a947a6e9027d3c188]
+
+t- Works8: add code to process font names - change FileException to ParseException globally
+
+tsvn path=/libwps/; revision=14
+
+2006-09-24  Andrew Ziehm  <ahziem1@mailbolt.com>  [03d470e1d9dd9a601fd0dc6f9ef792dab27713bb]
+
+t- Works8: add initial support for basic character formatting (CHFOD) - clean up a little - add a little bit of documentation
+
+tsvn path=/libwps/; revision=13
+
+2006-09-16  Andrew Ziehm  <ahziem1@mailbolt.com>  [fc56b56c351654dd21ee0f204371e91ef076f838]
+
+t- move some code to new file WPS.h - works8: read the index table in the header - works8: read FOD pages - works8: add stub for propertyChange() - works8: add basic readText() but not character encoding - add a little more documentation to code
+
+tsvn path=/libwps/; revision=12
+
+2006-09-11  Andrew Ziehm  <ahziem1@mailbolt.com>  [617251dc345f750e209cb482dabdbdf549be14dc]
+
+t- add code to parse index, which is in the header, to sections of CONTENTS stream - move to_bits() to libwpd_internal - fix 2 debug message typos
+
+tsvn path=/libwps/; revision=11
+
+2006-09-06  Andrew Ziehm  <ahziem1@mailbolt.com>  [7ca099549d3ca36448cf558b57176e9651d14365]
+
+t- add files belonging to last commit
+
+tsvn path=/libwps/; revision=10
+
+2006-09-04  Andrew Ziehm  <ahziem1@mailbolt.com>  [44c375dfb317359490c4a9c4098a958a9b9d7a06]
+
+t- add new code to read plain text of Works 8 - fix memory leak in (libwpd) converters - misc
+
+tsvn path=/libwps/; revision=9
+
+2006-09-04  Andrew Ziehm  <ahziem1@mailbolt.com>  [aba9390db860ead54abc75ddf2b460b8df520c97]
+
+t- remove most of WordPerfect-specific code
+
+tsvn path=/libwps/; revision=8
+
+2006-09-04  Andrew Ziehm  <ahziem1@mailbolt.com>  [83677d916b1596822ae24b5faf97552761592717]
+
+t- process page breaks - fix bug in handling of certain characters - remove block of old code
+
+tsvn path=/libwps/; revision=7
+
+2006-09-03  Andrew Ziehm  <ahziem1@mailbolt.com>  [925be2157fe450bc418dcb599c62417268a974cd]
+
+t- finish page width, height, margins, and orientation (but not footnote/header margins)
+
+tsvn path=/libwps/; revision=6
+
+2006-09-02  Andrew Ziehm  <ahziem1@mailbolt.com>  [13deaf308e7f5f33b0e779b023720355372ea137]
+
+t- fix bug that parse() did not return the error code - progress on physical page size - cleanup
+
+tsvn path=/libwps/; revision=5
+
+2006-09-02  Andrew Ziehm  <ahziem1@mailbolt.com>  [f7429f1078edd743f1a7d230870bf5c3c4609a5a]
+
+t- fix fonts table for some document types - fix some FODs-related bugs - minor changes such as formatting
+
+tsvn path=/libwps/; revision=4
+
+2006-09-02  Andrew Ziehm  <ahziem1@mailbolt.com>  [e6ae73c293a2045a82076c3c58ca4e31febc7462]
+
+t- add "info" or "error" to debug messages
+
+tsvn path=/libwps/; revision=3
+
+2006-09-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [23128f892ffeb7b79e4d0c416ad17f5304624dce]
+
+t- Initial Works 4 file format import support from 8/27/2006.  It basically works with the except the code for the fonts table needs work.
+
+tsvn path=/libwps/; revision=2
+
+2006-09-01  Andrew Ziehm  <ahziem1@mailbolt.com>  [d623fbecf7482c42a63ffab6138c32cdcb0d1319]
+
+t- Import an modified copy of libwpd 0.8.6 as published as a tarball on sourceforge.net
+
+tsvn path=/libwps/; revision=1

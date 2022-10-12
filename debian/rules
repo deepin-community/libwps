@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE=1
+
+CONFIGURE_FLAGS := \
+	--enable-static \
+
+
+%:
+	dh $@
+
+# There apparently is no way to build *only* the docs, so do it completely.
+# A full build (-b) will run this override only, as will an arch-indep (-A) build.
+override_dh_auto_configure:
+	dh_auto_configure --  $(CONFIGURE_FLAGS)
+
+override_dh_auto_configure-arch:
+	dh_auto_configure --  $(CONFIGURE_FLAGS) --without-docs
+
+override_dh_makeshlibs:
+	# retain the behavioud before compat 12.
+	dh_makeshlibs -VNone
